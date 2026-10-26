@@ -1,0 +1,15 @@
+{
+  "build": 46,
+  "passed": true,
+  "runtime_scripts": 64,
+  "inline_pngs": 11,
+  "unchanged_runtime_scripts": 63,
+  "unchanged_atlases": 11,
+  "source_inline_match": true,
+  "audio_cases": 21,
+  "input_cases": 57,
+  "host_cases": 78,
+  "accepted_bounded_native_cases": 178418,
+  "new_native_cases": 0,
+  "scope": "Excerpt of original local Build46 verification; not a new GitHub-hosted full-level acceptance. Full source evidence retained locally."
+}

@@ -1,0 +1,174 @@
+{
+  "game": "Rampage Through Time (USA), PS1, SLUS-01065",
+  "build": "46 / audio lifecycle, retry and status",
+  "accepted_release": 46,
+  "status": "Old West Web stage accepted by user on iPhone2026-10-26: sound effects/background-return/8-building victory/restart. Bounded research/source adapters remain; no original-engine equivalence.",
+  "rom_sha256": "c8e6dc4e5e48dd186dc46f829cc554541e83a42ec3913de0147ebb674e99bea2",
+  "executable_sha256": "1f9fcba2e3ff96bc7a4aa649a8a344ee18a51385b91aac7142fca98637b57016",
+  "runtime": "Independent HTML/Canvas/JavaScript;64 inline modules/11 embedded PNG atlases, including recovered Old West scenery. No runtime ROM/EXE/BIOS/network service.",
+  "accepted_native_cases": 178418,
+  "pending_native_cases": 0,
+  "new_behavior": [
+    "Resume any non-running audio context on user enable/start/real input, including Safari interrupted; errors do not escape into simulation.",
+    "Explicit test/retry closes old context and creates a new one in the gesture; current generation guards ignore old asynchronous results. No accumulated effects while interrupted/hidden.",
+    "Optional AudioSession playback request only on user enable, restore original type on mute; unsupported/denied optional API safely falls back. No silent-loop media workaround.",
+    "Two synthetic test tones with modest bounded gain; status reports retry/failure rather than unconditional ON. Voices disconnect at end, stop on mute/pause, old contexts close. No original audio/music recovery."
+  ],
+  "verification": {
+    "current_browser": "Native enable/retry actual WebAudio65-script analyser probe produces nonzero gain-output; closed old/running new contexts, logs0. Ordinary production/privateLAN pages separate. Not physical iPhone output.",
+    "ordinary_current_standalone": "Build46 ordinary production/privateLAN native enable/retry/mute/control release checked; user confirmed full iPhone checklist, not independently recorded.",
+    "native": "178418 accepted bounded native cases unchanged; new0. Source combat/collision/render modules unaffected.",
+    "current_power_browser": "Reused qualified29 three-POWER browser proof; affected30 changes only air22 logic/control words and new module. New30 POWER browser replay not claimed.",
+    "supplied_world": "3 separate direct-field destroyed-roof POWER cases context0/1/3 use actual updatePower→78→Jump recovery; full68 meter retained; not natural keyboard/native counts",
+    "current_air_bird_browser": "Actual IAB46 all64 scripts, coach ground40/retirementtype0 then native air-punch bird22 +40 (total80), resourceCC4→Jump recovery/restart; logs0",
+    "current_air_npc_browser": "Actual IAB45 scoped63-script NPC component, TrafficModel omitted/type23 legacy challenge retained. Keys intercept actual slot4/frame451, source242→death78→cleanup, no false score/power/grabs; logs0. Not full roster NPC route.",
+    "loss_scope": "Current63 legacytype23 component:13 real5.5 hits→energy0/lost/freeze/restart. Natural OldWest source29154 ordinary-stage low-energy refill remains active; this is not a claimed natural OldWest defeat."
+  },
+  "boundaries": [
+    "Original native image/animation/allocation/NPC/audio/reaction/deletion leaf captures differ by suite; source fixtures state each boundary.",
+    "Scene allocation/reuse/freecount, image/wait clock, source object list replacement, visible slot/camera/world mapping, resident removeFloor and audio rendering remain adapters.",
+    "Art uses accepted original RAM/VRAM/native handle/page/codec paths; independent TEXT/CMB decoder, hardware modulation/semitransparency not restored.",
+    "Hurt15/23 no-scan trajectory and14/102/30 pre/post now restored within bounded scope.43 dry-ground→14 recovery and other Hurt10/58 scene side geometry remain adapters. Current air22 no longer uses root side/top/landing bridge; source22 has no building contact scan until its original late22→2 transition. Final affected component regression passed; bounded source and scene distinctions remain.",
+    "Full all-era/all-character/original engine/world loader/PvP remains outside this stage.",
+    "Recoil29 native roofHit captures normal2B148 and41218 particle leaves,215E4 query result; native417A0 runs real44DEC/4488C with image apply captured. No whole dispatcher/world-clock equivalence.",
+    "Source44 retains context3 until its own controller clears it; POWER broken-roof adopts78 rather than forcing44. Dormant legacy optional-module fallback still exists; current entry always loads new modules.",
+    "Air30 native2048 assumes inactive PvP and fixed OldWest traffic22/46 plus retired0. Other world9900C/ground997D0 are named captured leaves with supplied outcomes, current scene logs exclusions; no full other-enemy or multiplayer claim.",
+    "Original sprite/clock/world/camera/source allocator/lists/audio/render bounds remain; raw source22 can travel across building silhouette during punch until source fall handoff, no artificial wall clamping claimed.",
+    "Hurt33: delete/voice/PvP/camera are captured leaves and water return supplied. Up to4 controller/move/post calls use a supplied sequence without animation/global engine scheduling; no whole-actor tick equivalence.5 full64 adapter/browser cases explicitly write setup fields, not natural player routes or native counts.",
+    "Recovery35: only source43 camera40280 field continuation integrated. Original28DC0 shake leaf captured;water2D32C supplied in native cases. Camera/minimumY/actor driver remains scene supplied, other camera continuations remain excluded. Dry43→14 adapter retained. Buildingstate4/B144 natural entry unresolved. No complete43 recovery/full engine claim."
+  ],
+  "report": "report.html",
+  "manifest": "checksums.json",
+  "promoted_sets": {
+    "enemy26": 23808,
+    "hurt27": 4096,
+    "down_roof28": 9472,
+    "recoil29": 3072,
+    "air_punch30": 2048,
+    "hurt33": 1536,
+    "recovery35": 3072
+  },
+  "validation": {
+    "total_local_native_cases": 178418,
+    "previous_accepted_cases": 178418,
+    "newly_promoted_cases": 0,
+    "new_sets": {},
+    "interpretation": "Bounded local original-MIPS comparisons; many image/allocator/feedback/world leaves captured; not whole-ROM equivalence. Draft reruns/subsets not added.",
+    "native_proof_reuse": "Runtime kernels/fixtures unchanged from qualified checkpoints26..30; transitive checksums verified, unaffected native suites not re-executed. Special ACT32 fix separately verified29.",
+    "functional_evidence": "evidence/verification.json",
+    "input_adapter_cases": 21,
+    "input_baseline_failures": 7,
+    "affected_regression": "Non-audio simulation/render identical45;63 modules/11PNG unchanged. Reuse45 full8 route/restart/RAM,178418 native unchanged.",
+    "build31_functional_suite_reused": "Prior24 (23 scoped63 and1 full64) not all repeated32; affected3 routes and10 input cases run32; historical qualification31 retained.",
+    "historical_build31_functional_entries": 24,
+    "historical_build31_keyboard_entries": 21,
+    "historical_build31_supplied_world_entries": 3,
+    "historical_build31_scopes": "23 current63-module legacy-trigger components and1 current64 air-key entry. Actual full64 original roster/browser proof separate.",
+    "current_executed": "21 controlled audio lifecycle/error cases +57 existing input cases; real WebAudio gain-output analyser/native enable+retry. Ordinary final pages separately checked.",
+    "historical_native_promotion35": {
+      "previous": 175346,
+      "new": 3072,
+      "accepted": 178418
+    },
+    "trace_policy_cases": 5,
+    "guidance_cases": 11,
+    "air_wrap_cases": 5,
+    "air_wrap_old41_failures": 3
+  },
+  "delivery_only_changes": {
+    "changed_runtime_files": [
+      "game.js host audio helpers and gesture/bindings only"
+    ],
+    "entry_changed": "Build46 report references and audio check row after existing8 control buttons",
+    "other_runtime_files_unchanged": 63,
+    "original_atlases_unchanged": 11,
+    "native_case_increment": 0
+  },
+  "diagnostic_policy": {
+    "production_limit_per_list": 2048,
+    "oldest_trim_batch": 1024,
+    "research_full_flag": "__RAMPAGE_TEST__ && !__RAMPAGE_BOUNDED_HISTORY__",
+    "bounded_probe_flag": "__RAMPAGE_TEST__ && __RAMPAGE_BOUNDED_HISTORY__",
+    "memory_scope": "Node post-explicit-GC process heap is measured separately from nonstandard browser performance.memory estimates. No claim of whole-browser memory reduction or all-leaks elimination.",
+    "semantic_scope": "Only diagnostic viewport-edge dedup reads a history during runtime; it does not alter gameplay RAM. Current paired RAM equality is at13 checkpoints, not every-frame/native-engine equivalence."
+  },
+  "presentation_boundary": {
+    "source": "Browser UI adaptation; not recovered original-game tutorial or HUD.",
+    "progress": "UI-only guide booleans. All milestones become complete after alternate first-demolition success so guidance never blocks valid strategies.",
+    "feedback": "Presentation reads actor/action fields and input intent, with existing six-tick HUD cadence; pause/start reset updates immediately. It never overrides gameplay action gates.",
+    "layout": "Measured1280x720 native browser; image rendering remains960x540 with CSS object-fit contain. Large mode restores prior CSS size. Not all-device/mobile-touch acceptance."
+  },
+  "collision42_scope": {
+    "fix": "updateAir captures prior display X, unwraps native modulo span and clamps only outer scene range. Source27594 movement, source22 no-building-scan phase, velocities/action/animation/contact logic unchanged.",
+    "matrix": "47 successful requested routes,3 pre-action hurt interruptions; separate recovery confirmed. Deterministic DOM/RAF keyboard scenarios, not original/native/browsing counts.",
+    "original_boundary": "Source22 can still traverse building silhouettes until original late22→2 handoff. Existing Hurt10/58 geometry and dry43→14 adapter retained.",
+    "browser_scope": "Extra interval observer reads state into DOM only; native keyboard inputs/original RAF. Browser phases/damage differ, no lockstep claim."
+  },
+  "scenery43_scope": {
+    "source": "scenery-source.json; same accepted Old West RAM/VRAM; all58 source frame headers matched CMB; pixels from original loaded VRAM and original helper resolution.",
+    "used": "181 of220 captured static objects,54 of58 unique frames; exclude front props with layers>1530 so decorative occluders do not cover play.",
+    "adapter": "Sky fill, parallax .22/.38/.65/1, repeats1536/3072 scene px,148guest horizontal offset, last12 source-ground rows repeated below255 to fill16:9 and bottomHUD strip. No source complete camera/render equivalence.",
+    "ground": "Source ground y195 and215 now visible under base214 (building7 differs205). Actor ground448 and all source building/roof positions unchanged. No arbitrary foundation stretch or collision shift.",
+    "limitations": "PS1 modulation/semitransparency and independent CMB/TEXT page decoder pending. No new device/performance claims. Original action43 research stays deferred; release43 is a separate version number."
+  },
+  "mobile44_scope": {
+    "layout": "320x568,360x640,390x844,568x320,667x375,844x390,1024x768,1280x720 CSS viewports in same-origin iframe. No horizontal overflow, start fully within stage and reachable; six phone sizes all8 controls>=44x48 and initially visible.",
+    "input": "12 controlled full64 fake-DOM multi-pointer scenarios including real scene climb/first demolition;21 old input cases. Actual browser native mouse-pointer buttons separately.",
+    "console": "Audit iframe hosts log MutationObserver.observe errors. No reference in authored game/host; likely observation instrumentation (inference), exact origin unconfirmed. No zero-error audit claim.",
+    "remaining": "Historical44 layout evidence; later45/46 user iPhone acceptance supersedes pending phone status. Device matrix remains limited; no external deployment."
+  },
+  "input45_scope": {
+    "confirmed": "Old teardown only at control listeners; no root pointer/touch snapshot fallback; capture exceptions can interrupt cleanup. User reported occasional release stickiness, exact event stream unknown.",
+    "implementation": "Root capture plus source-button touch target reconciliation and safe capture handling. No timeout; no pointerId/Touch.identifier equivalence assumption.",
+    "verification": "24 new+33 old controlled cases,21 old-baseline cases20fail,24-case first patch2capture-transfer failures retained. Real browser event delivery barrier old/new evidence.",
+    "remaining": "User release/multitouch retest no recurrence; exact event trace unknown."
+  },
+  "audio46_scope": {
+    "confirmed": "45 resumes suspended only and ignores interrupted; resume errors unhandled, context creation failure can leave label ON. User already enabled sound but heard none; exact root cause not captured.",
+    "implementation": "Host audio lifecycle, optional Audio Session playback request on enable, current-state feedback/retry, two-tone cue and bounded gain; input gestures retry audio only.",
+    "remaining": "User confirmed test tones and complete iPhone flow including gameplay effects/background return. Exact cause/model/iOS unknown; originalPS1 sound/music and broad-device compatibility not restored/proven."
+  },
+  "metadata_revision": "final-user-acceptance2026-10-26; runtime unchanged46",
+  "stage_acceptance": {
+    "stage": "Old West single-level Web research reconstruction",
+    "build": 46,
+    "date": "2026-10-26",
+    "timezone": "Asia/Shanghai",
+    "status": "accepted_complete_with_declared_research_boundaries",
+    "source": "Direct human reply in this chat",
+    "latest_user_answer_verbatim": "通过",
+    "preceding_checklist": [
+      "Gameplay attack/hurt/collapse sound audible",
+      "Switch to background and return; continue; sound and controls normal",
+      "Destroy8 buildings; victory then restart; movement/jump/attack work"
+    ],
+    "interpretation": "User confirmed the immediately preceding full iPhone acceptance checklist. No independent recording or event trace, device model/iOS/score/timing unknown.",
+    "prior_user_feedback": {
+      "build45_release": "未再出现",
+      "build46_test_tones": "能听到了"
+    },
+    "automated_and_browser_evidence": {
+      "bounded_original_native_cases_retained": 178418,
+      "new_native_cases": 0,
+      "build46_host_cases": 78,
+      "build46_actual_extracted_archive_replay": true,
+      "build45_full64_route": "8 buildings3140score/43.75energy/POWER0/arena179/won/restart; finalRAM same43. Reused on46 after non-audio code identity.",
+      "normal_speed_desktop_full_victory": "Historical38 actual native input/originalRAF,3130score/199game seconds, freeze/restart. No new46 independent full victory claim.",
+      "build46_browser_audio": "Real WebAudio analyser nonzero; ordinary production/LAN UI checked separately; user now confirms phone output/flow."
+    },
+    "remaining_scope": [
+      "SingleOldWest stage withGeorge; all eras/all characters/full original engine/loader/PvP excluded",
+      "Original action43 natural entry/dry-ground recovery and someHurt10/58 geometry remain named adapters",
+      "Camera/world/object/clock/render/audio integration remains partly adapted; bounded stubbed comparisons are not whole-ROM equivalence",
+      "Synthetic sound effects only; no original PS1 audio or background music",
+      "Independent TEXT/CMB decoding and full PS1 modulation/semitransparency not restored",
+      "One user iPhone acceptance; all devices/OS/routes/performance not guaranteed"
+    ],
+    "runtime_changes_since_build46": false,
+    "automatic_continuation": "PAUSED; explicitly confirmed with automation_update",
+    "external_deployment": false,
+    "temporary_lan": "Keep existing private static-only game server for continued user play; Mac must remain running. Not a permanent/public hosting URL.",
+    "report": "delivery.html",
+    "record": "acceptance.json"
+  }
+}
