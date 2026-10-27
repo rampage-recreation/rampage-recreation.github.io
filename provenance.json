@@ -1,757 +1,3832 @@
 {
-  "build": 50,
-  "status": "Phase3 final accepted Build50",
-  "baseline_accepted": 48,
-  "source_capture": {
-    "layout": 57,
-    "stage_slot": 76,
-    "buildings": [
-      {
-        "id": 1,
-        "segments": 10,
-        "left": 37,
-        "right": 148,
-        "base": 205,
-        "roof": -28,
-        "class": 0,
-        "state": 0,
-        "config": "0x80018144"
-      },
-      {
-        "id": 2,
-        "segments": 1,
-        "left": 82,
-        "right": 249,
-        "base": 213,
-        "roof": 151,
-        "class": 1,
-        "state": 0,
-        "config": "0x80017d8c"
-      },
-      {
-        "id": 3,
-        "segments": 3,
-        "left": 415,
-        "right": 485,
-        "base": 213,
-        "roof": 148,
-        "class": 0,
-        "state": 0,
-        "config": "0x80017efc"
-      },
-      {
-        "id": 4,
-        "segments": 7,
-        "left": 537,
-        "right": 642,
-        "base": 213,
-        "roof": 52,
-        "class": 0,
-        "state": 0,
-        "config": "0x80017e54"
-      },
-      {
-        "id": 5,
-        "segments": 3,
-        "left": 776,
-        "right": 846,
-        "base": 213,
-        "roof": 148,
-        "class": 0,
-        "state": 0,
-        "config": "0x80017efc"
-      },
-      {
-        "id": 6,
-        "segments": 10,
-        "left": 1019,
-        "right": 1130,
-        "base": 205,
-        "roof": -28,
-        "class": 0,
-        "state": 0,
-        "config": "0x80018144"
-      },
-      {
-        "id": 7,
-        "segments": 1,
-        "left": 1097,
-        "right": 1264,
-        "base": 213,
-        "roof": 151,
-        "class": 1,
-        "state": 0,
-        "config": "0x80017d8c"
-      },
-      {
-        "id": 8,
-        "segments": 3,
-        "left": 1493,
-        "right": 1563,
-        "base": 213,
-        "roof": 148,
-        "class": 0,
-        "state": 0,
-        "config": "0x80017efc"
-      },
-      {
-        "id": 9,
-        "segments": 7,
-        "left": 1629,
-        "right": 1734,
-        "base": 205,
-        "roof": 44,
-        "class": 0,
-        "state": 0,
-        "config": "0x80017e54"
-      },
-      {
-        "id": 10,
-        "segments": 1,
-        "left": 1688,
-        "right": 1855,
-        "base": 213,
-        "roof": 151,
-        "class": 1,
-        "state": 0,
-        "config": "0x80017d8c"
-      },
-      {
-        "id": 11,
-        "segments": 3,
-        "left": 1954,
-        "right": 2024,
-        "base": 213,
-        "roof": 148,
-        "class": 0,
-        "state": 0,
-        "config": "0x80017efc"
-      }
-    ],
-    "traffic": [
-      {
-        "record": "0x801f95c4",
-        "o": "0x801d85c0",
-        "type": 9,
-        "state": 1,
-        "timer": 353,
-        "script": "0x80089f68"
-      },
-      {
-        "record": "0x801f963c",
-        "o": "0x801d8690",
-        "type": 47,
-        "state": 1,
-        "timer": 353,
-        "script": "0x8008d100"
-      },
-      {
-        "record": "0x801f96b4",
-        "o": "0x801d8760",
-        "type": 34,
-        "state": 1,
-        "timer": 353,
-        "script": "0x8008c644"
-      }
-    ],
-    "ram_sha256": "13151428b5cef2600b0ed247a98ed64623f37786798cc80de36950f5725f9ed2",
-    "scope": "Supplied slot/state66 research selection, original full loader capture; not natural menu or Web original loader.",
-    "vram_sha256": "234c88a98a902269d69c5f2664ca728b3287bfd577fab86bcd62c3b3bb31fbd6",
-    "vram_capture_bytes": 2097152,
-    "vram_capture_note": "Redux extended saved-state GPU field3 (2MiB); pixel helpers read1024x512 source area. Initial1MiB-only assertion corrected before extraction."
-  },
-  "runtime_modules": 74,
-  "atlases": 13,
-  "frames": 402,
-  "source_roles": {
-    "wall_effect": 14,
-    "planks": 8,
-    "dust": 12,
-    "building": 43,
-    "special_building": 7,
-    "special_effect": 7,
-    "window_item": 32,
-    "item_effect": 6,
-    "item_hidden": 1,
-    "area17_resident": 80,
-    "area17_projectile": 11,
-    "area17_traffic": 96,
-    "area17_attachment": 24,
-    "scenery": 61
-  },
-  "native_cases_retained": 187378,
-  "new_native_cases": 18304,
-  "component_route": {
-    "passed": true,
-    "scope": "11-building source-geometry component keys-only route/restart; 27 source item placements; resident26/30 and native bullets enabled, source traffic9/47/34 and projectile6/7/17/32 enabled. Deterministic DOM/RAF keyboard integration, not original-engine or browser victory.",
-    "steps": [
-      {
-        "id": 1,
-        "score": 680,
-        "tick": 995,
-        "arena": 146
-      },
-      {
-        "id": 2,
-        "score": 1030,
-        "tick": 2321,
-        "arena": 152
-      },
-      {
-        "id": 3,
-        "score": 1330,
-        "tick": 2714,
-        "arena": 158
-      },
-      {
-        "id": 4,
-        "score": 1770,
-        "tick": 3337,
-        "arena": 183
-      },
-      {
-        "id": 5,
-        "score": 2070,
-        "tick": 3646,
-        "arena": 189
-      },
-      {
-        "id": 6,
-        "score": 2750,
-        "tick": 10134,
-        "arena": 247
-      },
-      {
-        "id": 7,
-        "score": 3100,
-        "tick": 11406,
-        "arena": 250
-      },
-      {
-        "id": 8,
-        "score": 3400,
-        "tick": 11738,
-        "arena": 256
-      },
-      {
-        "id": 9,
-        "score": 3840,
-        "tick": 12308,
-        "arena": 279
-      },
-      {
-        "id": 10,
-        "score": 4190,
-        "tick": 13612,
-        "arena": 282
-      },
-      {
-        "id": 11,
-        "score": 4490,
-        "tick": 13919,
-        "arena": 288
-      }
-    ],
-    "interruptions": [],
-    "completion": {
-      "score": 4490,
-      "source_remaining_field": 1,
-      "visible_remaining": 0,
-      "cleanup": true,
-      "energy": 65,
-      "power": 0,
-      "arena": 288,
-      "mode": "won",
-      "ramSHA256": "b76a8a476ff13a8b204d2885a975498d7b49fe3e346a66c312102d591a2db6ce"
-    },
-    "restarted": true
-  },
-  "boundaries": [
-    "Original1C6E8 supplied-slot/state66 loading/capture; not natural menu or complete Web original loader.",
-    "Actor allocation/reuse, visible scene mapping, clock/order, sound rendering and LCG RNG remain Web adapters; fixture leaves and exclusions are recorded per set.",
-    "Recovery protection60ticks and type7 protection caller gate are Web playability adaptations, not recovered PS1 timing.",
-    "Hurt34 George only; resident30 run offscreen clear/state11 excluded from its new suite and reuse accepted common helpers; no full original actor-frame equivalence.",
-    "402 crop/header/source checks use loadedVRAM/original helper path, not an independent BIN/CMB/TEXT codec.",
-    "Accepted48/static/public and49/50 candidate history retained. Phase3 accepted50; user acceptance in acceptance.json, source/adapter boundaries unchanged."
-  ],
-  "new_public_deployment": false,
-  "qualified_candidate_native_total": 205682,
-  "local_comparison_sets": {
-    "resident26": {
-      "cases": 1536,
-      "mismatches": 0,
-      "groups": {
-        "progress": 256,
-        "eject": 128,
-        "fallStart": 128,
-        "fall": 256,
-        "landing": 128,
-        "runStart": 128,
-        "run": 256,
-        "struck": 256
-      },
-      "scope": "OriginalArea17 resident26 overlay progression/eject/fall/landing/run/struck fields.97A98 typed animation dispatch,35CB8 common animation application,34C2C clear/reset are captured leaves. Supplied actor/window/floor/building/obstacle/camera, not complete97168 actor dispatcher/animation scheduler or natural player run.",
-      "fixture_sha256": "d91e369a19e5dd945b6cfb3a4d31dbbd270e9ff396db9ea0ad0e4f7b6e8f4372"
-    },
-    "resident30": {
-      "cases": 1536,
-      "mismatches": 0,
-      "groups": {
-        "progress": 256,
-        "eject": 128,
-        "fallStart": 128,
-        "fall": 256,
-        "landing": 128,
-        "runStart": 128,
-        "run": 256,
-        "struck": 256
-      },
-      "scope": "OriginalArea17 common resident30 progression10/21/22/23/eject/fall/landing/runStart/visible-run/struck fields.362F8 typed and35098 common animation captured; layout57 supplied. run offscreen clear and state11 validation excluded, reuse prior common routines with source30 table separately resolved. No complete35DFC driver/scheduler claim.",
-      "fixture_sha256": "49d42759c305364aad1893867363db5a87171b79d5de33e5bf45127f6eaff2b2"
-    },
-    "road47": {
-      "cases": 2048,
-      "mismatches": 0,
-      "scope": "Original2EFAC full47 caller fields, real2F454 motion/2E93C obstacle/2DA34 direction/2F14C ground.35CB8 animation/23330 RNG/2D8D0 explosion allocation/3BB40 deletion are captured leaves. Supplied records,objects,camera,obstacle inputs; not full clock/render/engine or original complete effect allocation.",
-      "fixture_sha256": "33398a7e98b44d73aee9d047c617405374fc3b0b3df4d2babd5622f40dac798c"
-    },
-    "plane9": {
-      "cases": 3840,
-      "mismatches": 0,
-      "scope": "Original30E94 type9 full caller/32DE4 attachment/2FE18 distance fields. Real motion/viewport/lookup/announce; nearest2FE74 and31088 child allocation are supplied leaves. Animation/sound/RNG/shake captured; layout215E4 supplied57. No original full scheduler/renderer/attachment allocation claim.",
-      "fixture_sha256": "e5f5158247442dff2d9716c84949cb38988c61b89ede3967c4daf7659aceba70"
-    },
-    "flying34": {
-      "cases": 3072,
-      "mismatches": 0,
-      "groups": {
-        "step": 3072
-      },
-      "fixture_sha256": "ae2e3997489b243f9268cbc930e142f8a8d81eceb7f5e2453fdc84d38adbaa06",
-      "scope": [
-        "NativeArea17 decimal34 full3278C including32ED8/32DE4 attachment position. Real motion/hover/wait/reset/steering/struck/death/respawn and source enabled attack gate. Animation/sound/RNG/deletion and respawn child allocation captured, supplied valid child/header/player boxes; no complete scheduling/renderer/allocator."
-      ]
-    },
-    "area-projectile": {
-      "passed": true,
-      "cases": 4608,
-      "mismatches": 0,
-      "groups": {
-        "6/init": 128,
-        "6/spawn": 128,
-        "6/fire": 128,
-        "6/step": 768,
-        "7/init": 128,
-        "7/spawn": 128,
-        "7/fire": 128,
-        "7/step": 768,
-        "17/init": 128,
-        "17/spawn": 128,
-        "17/fire": 128,
-        "17/step": 768,
-        "32/init": 128,
-        "32/spawn": 128,
-        "32/fire": 128,
-        "32/step": 768
-      },
-      "fixture_sha256": "ab6654865918b7ddae9b4df65819d8f180f12bb6920ab93b86a4cd924e72fffc",
-      "boundaries": [
-        "OriginalArea17 projectile6/7/17/32 init and3A568 pool,373A8/37180/31140 fire,39D1C/2F9C8/39B64/311C8 fields. Real point40B6C/damage40F24; image queue/allocation/deletion/sound/feedback captured. Source3D4C0 sound feedback captured; real40B28 velocity clear; supplied players/headers/visibility/pool/valid directions. No complete actor/scheduler or rendering claim."
-      ]
-    },
-    "nearest": {
-      "cases": 1024,
-      "mismatches": 0,
-      "scope": "Original2FE74 nearest target and263C4 controller mapping helper; supplied8-slot mapping/9 role records/object positions, real wrap/tie/active-field semantics. No whole-engine target scheduling claim.",
-      "fixture_sha256": "c1704beef60aac6e0ce40cfc105c86d122a67b9fab5461f7db6e6c8942ba9057"
-    },
-    "hurt34": {
-      "cases": 640,
-      "mismatches": 0,
-      "scope": "OriginalGeorge45904/4488C source table select,3FDF8 logic and3CA24 launch.3B144 animation application/2D32C water query supplied leaves; real40B28 stop fields. George role4, no full engine/camera transition or scheduling claim.",
-      "fixture_sha256": "916ab890a08f98938832250cb4656ceefd847e547fd2cea57b5282f77affb3dc"
-    }
-  },
-  "atlas": {
-    "width": 1024,
-    "height": 1024,
-    "decoded_rgba_bytes": 4194304,
-    "resampled": false
-  },
-  "registry": "work/era49/levels.json / registry.py",
-  "scene_integration": {
-    "passed": true,
-    "scope": "Supplied scene fields for four targeted caller cases plus no-input18000 tick soak. Not native counts, key-only victory or browser proof.",
-    "results": [
-      {
-        "case": "road47 supplied struck→effect→retire",
-        "passed": true,
-        "effects": 1,
-        "arena": 86
-      },
-      {
-        "case": "flying34 supplied dead→child delete→source respawn with reused scene child",
-        "passed": true,
-        "child": 2149379328,
-        "arena": 85
-      },
-      {
-        "case": "supplied type7 contact→George34→source script recovery",
-        "passed": true,
-        "action": 0,
-        "shield": 60,
-        "arena": 86
-      },
-      {
-        "case": "web recovery protection excludes type7 contact; restores source active flag",
-        "passed": true
-      },
-      {
-        "case": "18000-tick ordinary no-input scene soak",
-        "passed": true,
-        "arenaMax": 100,
-        "projectileTypes": [
-          17,
-          7,
-          32,
-          6,
-          1
-        ],
-        "actorStates": {
-          "9": [
-            1,
-            2,
-            15,
-            17,
-            18
-          ],
-          "34": [
-            1,
-            99,
-            2,
-            21,
-            22
-          ],
-          "47": [
-            1,
-            2
-          ]
-        },
-        "mode": "playing"
-      }
-    ]
-  },
-  "regression": {
-    "old_west_sha256": "bb0cf0bf303699bbdf25652dbe6ddc67dd3930dbdcc7f072d57d1b7a365ab18d",
-    "avalon": {
-      "score": 2590,
-      "remaining": 1,
-      "energy": 48.5,
-      "power": 0,
-      "arena": 152,
-      "mode": "won",
-      "ramSHA256": "1db44d0d9e9ddd691c91bf3003f728720ac36ccf3778193fe5b25efce30c0075"
-    },
-    "area17": {
-      "score": 4490,
-      "remaining": 1,
-      "energy": 65,
-      "power": 0,
-      "arena": 288,
-      "mode": "won",
-      "ramSHA256": "b76a8a476ff13a8b204d2885a975498d7b49fe3e346a66c312102d591a2db6ce"
-    },
-    "old_and_avalon_match_accepted48": true
-  },
-  "browser": {
-    "ordinary_scripts": 74,
-    "actual_route_scripts": 76,
-    "observer_extra": 2,
-    "won": {
-      "mode": "won",
-      "tick": 68827,
-      "score": 4650,
-      "energy": 24.25,
-      "power": 11,
-      "arena": 285,
-      "elapsed": 1147.1166666659522,
-      "player": {
-        "x": 3283.958953857422,
-        "y": 448,
-        "action": 0,
-        "roof": 0,
-        "climb": 0,
-        "hurt": false,
-        "jump": false,
-        "air": false,
-        "locked": false,
-        "attack": false
-      },
-      "buildings": [
-        {
-          "id": 1,
-          "x": 277.5,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 2,
-          "x": 345,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 3,
-          "x": 844.5,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 4,
-          "x": 1027.5,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 5,
-          "x": 1386,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 6,
-          "x": 1750.5,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 7,
-          "x": 1867.5,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 8,
-          "x": 2461.5,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 9,
-          "x": 2665.5,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 10,
-          "x": 2754,
-          "phase": "rubble",
-          "collapsed": true
-        },
-        {
-          "id": 11,
-          "x": 3153,
-          "phase": "rubble",
-          "collapsed": true
-        }
-      ]
-    },
-    "restart": {
-      "mode": "playing",
-      "tick": 24,
-      "score": 0,
-      "energy": 68,
-      "power": 0,
-      "arena": 85,
-      "elapsed": 0.39999999999999997,
-      "player": {
-        "x": 226.00000762939453,
-        "y": 448,
-        "action": 0,
-        "roof": 0,
-        "climb": 0,
-        "hurt": false,
-        "jump": false,
-        "air": false,
-        "locked": false,
-        "attack": false
-      },
-      "buildings": [
-        {
-          "id": 1,
-          "x": 277.5,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 2,
-          "x": 345,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 3,
-          "x": 844.5,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 4,
-          "x": 1027.5,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 5,
-          "x": 1386,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 6,
-          "x": 1750.5,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 7,
-          "x": 1867.5,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 8,
-          "x": 2461.5,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 9,
-          "x": 2665.5,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 10,
-          "x": 2754,
-          "phase": "standing",
-          "collapsed": false
-        },
-        {
-          "id": 11,
-          "x": 3153,
-          "phase": "standing",
-          "collapsed": false
-        }
-      ]
-    },
-    "warning_error_logs": [],
-    "proof": "browser-victory.png",
-    "scope": "Actual IAB native keyboard full11-building victory/restart.76scripts = ordinary74 plus export gate/read-only visible DOM observer; no browser tool simulation/RAM/input-state writes. Not ordinary74 full-browser route or phone acceptance."
-  },
-  "lifecycle": {
-    "passed": true,
-    "scope": "Host DOM and supplied event callbacks, no real device/OS interaction or physical sound proof.",
-    "result": [
+  "build": 58,
+  "status": "visibility_fix_desktop_qualified_phone_retest_pending",
+  "baseline_build": 57,
+  "levels": {
+    "schema_version": 1,
+    "runtime": "captured-level-pack",
+    "baseline": 56,
+    "levels": [
       {
         "id": "old-west",
-        "count": 8,
-        "types": [
-          22,
-          46
+        "name": "Old West",
+        "short": "OLD WEST",
+        "payload": "oldWest",
+        "source_buildings": 8,
+        "images": {
+          "building": "destructionSprite",
+          "scenery": "scenerySprite",
+          "resident": "residentSprite",
+          "traffic": "trafficSprite",
+          "projectile": "projectileSprite"
+        },
+        "traffic_families": {
+          "22": "flying",
+          "46": "coach"
+        },
+        "resident_types": [
+          13,
+          14,
+          15
         ],
-        "blurReleased": true,
-        "touchRestartReleased": true,
-        "newWorld": true,
-        "selectorClearsAndPauses": true
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Accepted Old West8-building Build50 behavior baseline; captured assets and declared Web adapters retained."
       },
       {
         "id": "avalon",
-        "count": 7,
-        "types": [
-          25,
-          13
+        "name": "Avalon",
+        "short": "AVALON",
+        "payload": "avalon",
+        "source_buildings": 7,
+        "images": {
+          "building": "avalonSprite",
+          "scenery": "avalonSprite",
+          "resident": "avalonSprite",
+          "traffic": "avalonSprite"
+        },
+        "traffic_families": {
+          "25": "flying",
+          "13": "ground13"
+        },
+        "resident_types": [
+          19,
+          20
         ],
-        "blurReleased": true,
-        "touchRestartReleased": true,
-        "newWorld": true,
-        "selectorClearsAndPauses": true
+        "recovery_protection_ticks": 60,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Accepted Avalon7-building Build50 baseline. Residents19/20, traffic25/13 and projectile28; recovery60ticks is a Web playability adaptation."
       },
       {
         "id": "area17",
-        "count": 11,
-        "types": [
-          9,
-          47,
-          34
+        "name": "Area 17",
+        "short": "AREA 17",
+        "payload": "area17",
+        "source_buildings": 11,
+        "layout_index": 57,
+        "stage_slot": 76,
+        "images": {
+          "building": "area17Sprite",
+          "scenery": "area17Sprite",
+          "resident": "area17Sprite",
+          "traffic": "area17Sprite",
+          "projectile": "area17Sprite"
+        },
+        "traffic_families": {
+          "9": "plane9",
+          "34": "flying",
+          "47": "road47"
+        },
+        "resident_types": [
+          26,
+          30
         ],
-        "blurReleased": true,
-        "touchRestartReleased": true,
-        "newWorld": true,
-        "selectorClearsAndPauses": true
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Area17 captured11 buildings/27 item placements, residents26/30, traffic9/47/34 and projectiles6/7/17/32. Bounded original control compared; scene allocation/clock/visibility/RNG and60tick escape protection remain Web adaptations. Accepted Build50 source geometry/combat baseline retained, including original declared bridge boundaries.",
+        "compatibility": {
+          "resident26LegacyBridge": true
+        }
+      },
+      {
+        "id": "jur-angeles",
+        "name": "Jur Angeles",
+        "short": "JUR ANGELES",
+        "payload": "jurAngeles",
+        "source_buildings": 8,
+        "layout_index": 9,
+        "stage_slot": 72,
+        "images": {
+          "building": "jurAngelesSprite",
+          "scenery": "jurAngelesSprite",
+          "resident": "jurAngelesSprite",
+          "traffic": "jurAngelesSprite",
+          "projectile": "jurAngelesSprite"
+        },
+        "traffic_families": {
+          "24": "flying",
+          "12": "ground13"
+        },
+        "resident_types": [
+          18,
+          17
+        ],
+        "projectile_types": [
+          24
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Jur Angeles: source-loaded 8 buildings, current-era resident/traffic/projectile scripts and pixels. Bounded original MIPS control compared. Scene clock/visibility/allocation/RNG/60tick recovery protection/campaign/storage/synth sounds are Web adaptations. No full original engine or independent codec claim."
+      },
+      {
+        "id": "cairo",
+        "name": "Cairo",
+        "short": "CAIRO",
+        "payload": "cairo",
+        "source_buildings": 8,
+        "layout_index": 30,
+        "stage_slot": 40,
+        "images": {
+          "building": "cairoSprite",
+          "scenery": "cairoSprite",
+          "resident": "cairoSprite",
+          "traffic": "cairoSprite",
+          "projectile": "cairoSprite"
+        },
+        "traffic_families": {
+          "4": "plane9",
+          "27": "flying"
+        },
+        "resident_types": [
+          9,
+          8
+        ],
+        "projectile_types": [
+          24,
+          33,
+          30
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Cairo: source-loaded 8 buildings, current-era resident/traffic/projectile scripts and pixels. Bounded original MIPS control compared. Scene clock/visibility/allocation/RNG/60tick recovery protection/campaign/storage/synth sounds are Web adaptations. No full original engine or independent codec claim."
+      },
+      {
+        "id": "lyons",
+        "name": "Lyons",
+        "short": "LYONS",
+        "payload": "lyons",
+        "source_buildings": 7,
+        "layout_index": 51,
+        "stage_slot": 60,
+        "images": {
+          "building": "lyonsSprite",
+          "scenery": "lyonsSprite",
+          "resident": "lyonsSprite",
+          "traffic": "lyonsSprite",
+          "projectile": "lyonsSprite"
+        },
+        "traffic_families": {
+          "7": "plane9",
+          "41": "float41"
+        },
+        "resident_types": [
+          26,
+          27
+        ],
+        "projectile_types": [
+          1,
+          7,
+          5
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Lyons: source-loaded 7 buildings, current-era resident/traffic/projectile scripts and pixels. Bounded original MIPS control compared. Scene clock/visibility/allocation/RNG/60tick recovery protection/campaign/storage/synth sounds are Web adaptations. No full original engine or independent codec claim."
+      },
+      {
+        "id": "beijing",
+        "name": "Beijing",
+        "short": "BEIJING",
+        "payload": "beijing",
+        "source_buildings": 8,
+        "layout_index": 12,
+        "stage_slot": 8,
+        "images": {
+          "building": "beijingSprite",
+          "scenery": "beijingSprite",
+          "resident": "beijingSprite",
+          "traffic": "beijingSprite",
+          "projectile": "beijingSprite"
+        },
+        "traffic_families": {
+          "23": "flying",
+          "11": "ground13"
+        },
+        "resident_types": [
+          16
+        ],
+        "projectile_types": [
+          1,
+          24,
+          28,
+          35
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Beijing: current source capture supplies scene geometry/assets/selectors. Bounded original field controllers compared separately; clock/visibility/allocation/RNG/recovery60ticks/sky interpolation/campaign/storage/synth audio are Web adapters. Internal53, integration verification ongoing."
+      },
+      {
+        "id": "athens",
+        "name": "Athens",
+        "short": "ATHENS",
+        "payload": "athens",
+        "source_buildings": 11,
+        "layout_index": 36,
+        "stage_slot": 52,
+        "images": {
+          "building": "athensSprite",
+          "scenery": "athensSprite",
+          "resident": "athensSprite",
+          "traffic": "athensSprite",
+          "projectile": "athensSprite"
+        },
+        "traffic_families": {
+          "5": "plane9",
+          "28": "flying"
+        },
+        "resident_types": [
+          22
+        ],
+        "projectile_types": [
+          1,
+          24,
+          33
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Athens: current source capture supplies scene geometry/assets/selectors. Bounded original field controllers compared separately; clock/visibility/allocation/RNG/recovery60ticks/sky interpolation/campaign/storage/synth audio are Web adapters. Internal53, integration verification ongoing."
+      },
+      {
+        "id": "kobe",
+        "name": "Kobe",
+        "short": "KOBE",
+        "payload": "kobe",
+        "source_buildings": 13,
+        "layout_index": 48,
+        "stage_slot": 16,
+        "images": {
+          "building": "kobeSprite",
+          "scenery": "kobeSprite",
+          "resident": "kobeSprite",
+          "traffic": "kobeSprite",
+          "projectile": "kobeSprite"
+        },
+        "traffic_families": {
+          "17": "ground13",
+          "36": "flying"
+        },
+        "resident_types": [
+          29
+        ],
+        "projectile_types": [
+          1,
+          36
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Kobe: current source capture supplies scene geometry/assets/selectors. Bounded original field controllers compared separately; clock/visibility/allocation/RNG/recovery60ticks/sky interpolation/campaign/storage/synth audio are Web adapters. Internal53, integration verification ongoing."
+      },
+      {
+        "id": "shiraz",
+        "name": "Shiraz",
+        "short": "SHIRAZ",
+        "payload": "shiraz",
+        "source_buildings": 10,
+        "layout_index": 0,
+        "stage_slot": 0,
+        "images": {
+          "building": "shirazSprite",
+          "scenery": "shirazSprite",
+          "resident": "shirazSprite",
+          "traffic": "shirazSprite",
+          "projectile": "shirazSprite"
+        },
+        "traffic_families": {
+          "8": "plane9",
+          "19": "flying"
+        },
+        "resident_types": [
+          1,
+          2
+        ],
+        "projectile_types": [
+          24,
+          25,
+          33
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Fresh Shiraz source1C6E8 supplied-load capture, current-era original assets/selectors. Qualified bounded local fields; clock/visibility/allocator/RNG/input/sky interpolation/recovery60ticks/campaign/synth audio remain Web adapters. Internal54 integration pending whole-level/desktop qualification. Source-unloaded NPC animation requests retire/recycle the slot as an explicit Web boundary; no foreign-era frame fallback.",
+        "compatibility": {
+          "strictCurrentEraFrames": true
+        }
+      },
+      {
+        "id": "luzon",
+        "name": "Luzon",
+        "short": "LUZON",
+        "payload": "luzon",
+        "source_buildings": 10,
+        "layout_index": 15,
+        "stage_slot": 36,
+        "images": {
+          "building": "luzonSprite",
+          "scenery": "luzonSprite",
+          "resident": "luzonSprite",
+          "traffic": "luzonSprite",
+          "projectile": "luzonSprite"
+        },
+        "traffic_families": {
+          "15": "ground13",
+          "33": "flying"
+        },
+        "resident_types": [
+          28
+        ],
+        "projectile_types": [
+          1,
+          26
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Fresh Luzon source1C6E8 supplied-load capture, current-era original assets/selectors. Qualified bounded local fields; clock/visibility/allocator/RNG/input/sky interpolation/recovery60ticks/campaign/synth audio remain Web adapters. Internal54 integration pending whole-level/desktop qualification. Source-unloaded NPC animation requests retire/recycle the slot as an explicit Web boundary; no foreign-era frame fallback.",
+        "compatibility": {
+          "strictCurrentEraFrames": true
+        }
+      },
+      {
+        "id": "london",
+        "name": "London",
+        "short": "LONDON",
+        "payload": "london",
+        "source_buildings": 8,
+        "layout_index": 21,
+        "stage_slot": 28,
+        "images": {
+          "building": "londonSprite",
+          "scenery": "londonSprite",
+          "resident": "londonSprite",
+          "traffic": "londonSprite",
+          "projectile": "londonSprite"
+        },
+        "traffic_families": {
+          "20": "flying"
+        },
+        "resident_types": [
+          6,
+          7
+        ],
+        "projectile_types": [
+          1,
+          26
+        ],
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Fresh London source1C6E8 supplied-load capture, current-era original assets/selectors. Qualified bounded local fields; clock/visibility/allocator/RNG/input/sky interpolation/recovery60ticks/campaign/synth audio remain Web adapters. Internal54 integration pending whole-level/desktop qualification. Source-unloaded NPC animation requests retire/recycle the slot as an explicit Web boundary; no foreign-era frame fallback.",
+        "compatibility": {
+          "strictCurrentEraFrames": true
+        }
+      },
+      {
+        "id": "divax",
+        "name": "Divax",
+        "short": "DIVAX",
+        "payload": "divax",
+        "source_buildings": 8,
+        "layout_index": 18,
+        "stage_slot": 4,
+        "images": {
+          "building": "divaxSprite",
+          "scenery": "divaxSprite",
+          "resident": "divaxSprite",
+          "traffic": "divaxSprite",
+          "projectile": "divaxSprite"
+        },
+        "traffic_families": {
+          "18": "flying",
+          "1": "plane9",
+          "38": "float41"
+        },
+        "resident_types": [
+          3,
+          4,
+          5
+        ],
+        "projectile_types": [
+          1,
+          2,
+          5,
+          21,
+          22,
+          24
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Current Divax supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Internal55 integration not yet full-route/browser qualified. Web preflight rejects requests when all first20 source slots are occupied, avoiding source3A568 count-increment-before-slot-failure in this renderer allocator; native core retains original failure fields."
+      },
+      {
+        "id": "dearborn",
+        "name": "Dearborn",
+        "short": "DEARBORN",
+        "payload": "dearborn",
+        "source_buildings": 8,
+        "layout_index": 24,
+        "stage_slot": 12,
+        "images": {
+          "building": "dearbornSprite",
+          "scenery": "dearbornSprite",
+          "resident": "dearbornSprite",
+          "traffic": "dearbornSprite",
+          "projectile": "dearbornSprite"
+        },
+        "traffic_families": {
+          "40": "float41",
+          "44": "coach",
+          "2": "plane9"
+        },
+        "resident_types": [
+          10,
+          11,
+          12
+        ],
+        "projectile_types": [
+          1,
+          5,
+          9,
+          17,
+          24
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Current Dearborn supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Internal55 integration not yet full-route/browser qualified. Web preflight rejects requests when all first20 source slots are occupied, avoiding source3A568 count-increment-before-slot-failure in this renderer allocator; native core retains original failure fields."
+      },
+      {
+        "id": "macchu-pichu",
+        "name": "Macchu Pichu",
+        "short": "MACCHU PICHU",
+        "payload": "macchu-pichu",
+        "source_buildings": 9,
+        "layout_index": 27,
+        "stage_slot": 64,
+        "images": {
+          "building": "macchu-pichuSprite",
+          "scenery": "macchu-pichuSprite",
+          "resident": "macchu-pichuSprite",
+          "traffic": "macchu-pichuSprite",
+          "projectile": "macchu-pichuSprite"
+        },
+        "traffic_families": {
+          "21": "flying",
+          "10": "ground13"
+        },
+        "resident_types": [
+          9,
+          8
+        ],
+        "projectile_types": [
+          1,
+          24
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Current Macchu Pichu supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Internal55 integration not yet full-route/browser qualified. Web preflight rejects requests when all first20 source slots are occupied, avoiding source3A568 count-increment-before-slot-failure in this renderer allocator; native core retains original failure fields."
+      },
+      {
+        "id": "tok",
+        "name": "Tok",
+        "short": "TOK",
+        "payload": "tok",
+        "source_buildings": 9,
+        "layout_index": 33,
+        "stage_slot": 32,
+        "images": {
+          "building": "tokSprite",
+          "scenery": "tokSprite",
+          "resident": "tokSprite",
+          "traffic": "tokSprite",
+          "projectile": "tokSprite"
+        },
+        "traffic_families": {
+          "3": "plane9",
+          "26": "flying"
+        },
+        "resident_types": [
+          21
+        ],
+        "projectile_types": [
+          24,
+          29,
+          37
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Current Tok supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Build56 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
+      },
+      {
+        "id": "cleito",
+        "name": "Cleito",
+        "short": "CLEITO",
+        "payload": "cleito",
+        "source_buildings": 10,
+        "layout_index": 39,
+        "stage_slot": 48,
+        "images": {
+          "building": "cleitoSprite",
+          "scenery": "cleitoSprite",
+          "resident": "cleitoSprite",
+          "traffic": "cleitoSprite",
+          "projectile": "cleitoSprite"
+        },
+        "traffic_families": {
+          "29": "flying",
+          "30": "flying"
+        },
+        "resident_types": [
+          8
+        ],
+        "projectile_types": [
+          24
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Current Cleito supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Build56 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
+      },
+      {
+        "id": "james-town",
+        "name": "James Town",
+        "short": "JAMES TOWN",
+        "payload": "james-town",
+        "source_buildings": 9,
+        "layout_index": 42,
+        "stage_slot": 56,
+        "images": {
+          "building": "james-townSprite",
+          "scenery": "james-townSprite",
+          "resident": "james-townSprite",
+          "traffic": "james-townSprite",
+          "projectile": "james-townSprite"
+        },
+        "traffic_families": {
+          "14": "ground13",
+          "31": "flying"
+        },
+        "resident_types": [
+          23,
+          24,
+          25
+        ],
+        "projectile_types": [
+          1,
+          24,
+          31,
+          40
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Current James Town supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Build56 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
+      },
+      {
+        "id": "rome",
+        "name": "Rome",
+        "short": "ROME",
+        "payload": "rome",
+        "source_buildings": 10,
+        "layout_index": 45,
+        "stage_slot": 24,
+        "images": {
+          "building": "romeSprite",
+          "scenery": "romeSprite",
+          "resident": "romeSprite",
+          "traffic": "romeSprite",
+          "projectile": "romeSprite"
+        },
+        "traffic_families": {
+          "32": "flying",
+          "6": "plane9"
+        },
+        "resident_types": [
+          20,
+          23
+        ],
+        "projectile_types": [
+          1,
+          24,
+          26,
+          7
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Fresh Rome original supplied1C6E8 capture and current original assets/qualified bounded fields. Web animation clock/scheduler/visibility/RNG/allocator/collision/camera/render/audio/recovery/campaign adapters remain. Build57 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
+      },
+      {
+        "id": "opecville",
+        "name": "Opecville",
+        "short": "OPECVILLE",
+        "payload": "opecville",
+        "source_buildings": 9,
+        "layout_index": 54,
+        "stage_slot": 68,
+        "images": {
+          "building": "opecvilleSprite",
+          "scenery": "opecvilleSprite",
+          "resident": "opecvilleSprite",
+          "traffic": "opecvilleSprite",
+          "projectile": "opecvilleSprite"
+        },
+        "traffic_families": {
+          "16": "ground13",
+          "35": "flying"
+        },
+        "resident_types": [
+          26,
+          30
+        ],
+        "projectile_types": [
+          1,
+          36
+        ],
+        "compatibility": {
+          "strictCurrentEraFrames": true,
+          "safeProjectilePoolRequests": true
+        },
+        "recovery_protection_ticks": 60,
+        "roof_clearance": 180,
+        "features": {
+          "items": true,
+          "residents": true,
+          "traffic": true
+        },
+        "scope": "Fresh Opecville original supplied1C6E8 capture and current original assets/qualified bounded fields. Web animation clock/scheduler/visibility/RNG/allocator/collision/camera/render/audio/recovery/campaign adapters remain. Build57 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
       }
     ]
   },
-  "phone_acceptance": {
-    "status": "passed",
-    "build": 50,
-    "date": "2026-10-26",
-    "source": "user report in current conversation",
-    "targeted_freeze_retest_quote": "未再卡死，能继续游玩",
-    "remaining_checklist_quote": "通过",
-    "remaining_checklist_prompt": "剩余验收：第三关十一栋通关与重开、声音和后台恢复、三关切换后的资源重置。",
-    "device_context": "iPhone acceptance workflow; exact model/iOS version not collected",
-    "scope": "User accepts remaining phase3 checklist following targeted freeze retest; not tool-independent physical device telemetry, audio capture or all-device guarantee."
-  },
-  "packaging_scope": "Static play.html is byte-identical to qualified ordinary74-script standalone. Source archive contains runtime and captured-reference replay; excludes ROM/BIOS/full RAM/VRAM/disc files. Native fixture generation requires separately-held original research inputs.",
-  "fix50": {
-    "changed_modules": [
-      "air-punch-core.js",
-      "game.js"
-    ],
-    "new_bounded_native_cases": 4096,
-    "native_verification": {
+  "runtime_modules": 97,
+  "png_images": 30,
+  "standalone_sha256": "5bb58cda15d22d4c755128a800674794f0061541c7e81cc6a7cb9200d8363fe6",
+  "changes": [
+    "Separate actual Canvas640-wide drawing from source400-wide simulation flag",
+    "Mirrored sprite origin used for left/right clipping",
+    "Wrap around actual viewport center320 and draw current post-motion frame",
+    "Canvas width supplied by scene; source simulation flags/native field cores/assets/campaign unchanged"
+  ],
+  "new_native_cpu_cases": 0,
+  "retained_original_evidence": "57 and earlier native/reference history retained unchanged; no new native-equivalence claim",
+  "native_boundaries_inherited": [
+    "Clock/scheduler/visibility/RNG/object allocator/camera and selected collision bridges",
+    "Sky samples interpolated/extended and source static-layer selection",
+    "Cleito underwater visuals with current ground locomotion; no recovered swimming/fullwaterengine",
+    "Synthetic audio/campaign/browser storage/60tick recovery protection",
+    "Inherited Shiraz/Divax source-unloaded NPC panic animation recycled explicitly; original timing/assets incomplete",
+    "New2 Web allocator preflight avoids source3A568 saturated first20 count increment; core retains original fields",
+    "Area17 resident26LegacyBridge retained"
+  ],
+  "checks": {
+    "visibility-boundary-test.json": {
       "passed": true,
-      "research_only": true,
-      "cases": 4096,
-      "mismatches": 0,
-      "fixture_sha256": "28ed9eb6ad67aacee1c1e47c666854bf0c0fddee16aa708c724c892d4e873710",
-      "coverage": {
-        "0x8003f984": 4096,
-        "0x8002e120": 3072,
-        "0x8003bef8": 1783,
-        "0x8003ae98": 1783,
-        "0x80098f24": 2150,
-        "0x80041524": 428,
-        "0x80045ab4": 1476,
-        "0x8002e61c": 401
-      },
-      "boundaries": [
-        "Native3F984 current22 caller executes real2E120 with fixed decimal9/34/47 roster,98F24 overlap,2E61C hit/41524 score,3BEF8/3AE98 resident search and45AB4/4488C fall resource lookup.",
-        "Native9900C and997D0 other enemy/object classes are explicit captured leaves with supplied hit outcomes; sound/controller/feedback/image apply leaves captured. PvP players inactive supplied; no PvP implementation claim.",
-        "Boundary Y208/209, upward/downward velocities, source288 first-hit gate, priority/short-circuit and global/player/object/NPC records compared. Not original animation clock/world renderer/whole-ROM gameplay equivalence."
-      ]
+      "cases": 7056,
+      "legacyMismatches": 1929,
+      "fixedMismatches": 0,
+      "simulationVisibilityPreserved": true,
+      "leftLegacyErrors": 111,
+      "rightLegacyErrors": 1818,
+      "examples": [
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 480,
+          "flip": false,
+          "rect": {
+            "left": 687,
+            "right": 768,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 600,
+          "flip": false,
+          "rect": {
+            "left": 867,
+            "right": 948,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 639,
+          "flip": false,
+          "rect": {
+            "left": 926,
+            "right": 1007,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 640,
+          "flip": false,
+          "rect": {
+            "left": 927,
+            "right": 1008,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 641,
+          "flip": false,
+          "rect": {
+            "left": 929,
+            "right": 1010,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 650,
+          "flip": false,
+          "rect": {
+            "left": 942,
+            "right": 1023,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 660,
+          "flip": false,
+          "rect": {
+            "left": 957,
+            "right": 1038,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": -30,
+          "flip": true,
+          "rect": {
+            "left": -91.5,
+            "right": -10.5,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": false,
+          "drawn": true,
+          "preFlag": true
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 480,
+          "flip": true,
+          "rect": {
+            "left": 673.5,
+            "right": 754.5,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 600,
+          "flip": true,
+          "rect": {
+            "left": 853.5,
+            "right": 934.5,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 639,
+          "flip": true,
+          "rect": {
+            "left": 912.5,
+            "right": 993.5,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        },
+        {
+          "level": "old-west",
+          "type": 22,
+          "cam": 0,
+          "offset": 640,
+          "flip": true,
+          "rect": {
+            "left": 913.5,
+            "right": 994.5,
+            "top": 288,
+            "bottom": 387
+          },
+          "expected": true,
+          "drawn": false,
+          "preFlag": false
+        }
+      ],
+      "results": [
+        {
+          "level": "old-west",
+          "types": [
+            22,
+            46
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 93,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "avalon",
+          "types": [
+            25,
+            13
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 93,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "area17",
+          "types": [
+            9,
+            47,
+            34
+          ],
+          "cases": 504,
+          "legacyPrematureOrWrongCull": 144,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "jur-angeles",
+          "types": [
+            24,
+            12
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 93,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "cairo",
+          "types": [
+            4,
+            27
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 87,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "lyons",
+          "types": [
+            7,
+            41
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 99,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "beijing",
+          "types": [
+            23,
+            11
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 99,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "athens",
+          "types": [
+            5,
+            28
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 84,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "kobe",
+          "types": [
+            17,
+            36
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 87,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "shiraz",
+          "types": [
+            8,
+            19
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 93,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "luzon",
+          "types": [
+            15,
+            33
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 87,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "london",
+          "types": [
+            20
+          ],
+          "cases": 168,
+          "legacyPrematureOrWrongCull": 42,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "divax",
+          "types": [
+            18,
+            1,
+            38
+          ],
+          "cases": 504,
+          "legacyPrematureOrWrongCull": 141,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "dearborn",
+          "types": [
+            40,
+            44,
+            2
+          ],
+          "cases": 504,
+          "legacyPrematureOrWrongCull": 141,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "macchu-pichu",
+          "types": [
+            21,
+            10
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 93,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "tok",
+          "types": [
+            3,
+            26
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 93,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "cleito",
+          "types": [
+            29,
+            30
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 90,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "james-town",
+          "types": [
+            14,
+            31
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 87,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "rome",
+          "types": [
+            32,
+            6
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 90,
+          "fixedMismatches": 0
+        },
+        {
+          "level": "opecville",
+          "types": [
+            16,
+            35
+          ],
+          "cases": 336,
+          "legacyPrematureOrWrongCull": 93,
+          "fixedMismatches": 0
+        }
+      ],
+      "scope": "All20 source traffic rosters and actual frame draw rectangles, supplied left/right bounds/flips/camera wrap. Native motion supplied no-op to isolate clipping. Not new original CPU/browser/iPhone gameplay."
     },
-    "host_regression": {
+    "visibility-extras-test.json": {
+      "passed": true,
+      "cases": 75,
+      "out": [
+        {
+          "case": "real attachment source frame/flips/left-right/camera wrap",
+          "cases": 72
+        },
+        {
+          "case": "cleared/dead attachment stays removed",
+          "passed": true
+        },
+        {
+          "case": "draw current post-motion location rather than previous source visibility",
+          "before": 700,
+          "after": 600,
+          "sourceHidden": true,
+          "passed": true
+        },
+        {
+          "case": "draw current post-motion location rather than previous source visibility",
+          "before": -100,
+          "after": 0,
+          "sourceHidden": true,
+          "passed": true
+        }
+      ],
+      "scope": "Supplied scene boundary with actual current source attachment/parent frame. Native motion replaced only in2 post-motion cases; no natural-gameplay/native CPU claim."
+    },
+    "baseline20-preserved.json": {
+      "passed": true,
+      "out": [
+        {
+          "level": "old-west",
+          "same": true,
+          "completion": {
+            "score": 3140,
+            "energy": 43.75,
+            "power": 0,
+            "arena": 179,
+            "traffic_hits": [
+              {
+                "tick": 8743,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8745,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8748,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8752,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8757,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8758,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8759,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8995,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8996,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8997,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8998,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 8999,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9000,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9001,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9002,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9310,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9311,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9312,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9313,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9314,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9528,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9532,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9533,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9534,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9535,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9536,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9537,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9538,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9539,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9540,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9820,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9821,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9822,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 9823,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10087,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10089,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10090,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10091,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10092,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10093,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10094,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10095,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10096,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10097,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10098,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10099,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10100,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10101,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10102,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10103,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10654,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10657,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10658,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10659,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10660,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10661,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10662,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10663,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10664,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10665,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 10666,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11013,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11014,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11015,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11016,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11017,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11228,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11232,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11233,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11234,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11235,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11236,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11238,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11239,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11240,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11833,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11837,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11839,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11840,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11843,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11844,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11845,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11846,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 11847,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12192,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12193,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12194,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12195,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12431,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12434,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12435,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12436,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12437,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12438,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12439,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12440,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12441,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12442,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12443,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12444,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12445,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12446,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12447,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12795,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12796,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12797,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 12798,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13007,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13011,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13012,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13013,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13014,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13015,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13018,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13019,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13297,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13298,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              },
+              {
+                "tick": 13299,
+                "event": "damage",
+                "type": 22,
+                "args": [
+                  360448,
+                  2149543628
+                ]
+              }
+            ],
+            "coach_shots": [
+              {
+                "tick": 697,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 388,
+                "y": 194,
+                "vx": 227328,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 738,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 470,
+                "y": 194,
+                "vx": 94208,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 779,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 552,
+                "y": 194,
+                "vx": -158720,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 1804,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 554,
+                "y": 194,
+                "vx": 247808,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 1845,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 636,
+                "y": 194,
+                "vx": 184320,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 1886,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 718,
+                "y": 194,
+                "vx": 57344,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 1927,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 800,
+                "y": 194,
+                "vx": -79872,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 1968,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 882,
+                "y": 194,
+                "vx": -163840,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 2829,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 556,
+                "y": 194,
+                "vx": 247808,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 2870,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 638,
+                "y": 194,
+                "vx": 163840,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 2911,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 720,
+                "y": 194,
+                "vx": 43008,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 2952,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 802,
+                "y": 194,
+                "vx": -87040,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 2993,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 884,
+                "y": 194,
+                "vx": -183296,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 3813,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 476,
+                "y": 194,
+                "vx": 270336,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 3854,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 558,
+                "y": 194,
+                "vx": 177152,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 3895,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 640,
+                "y": 194,
+                "vx": 132096,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 3936,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 722,
+                "y": 194,
+                "vx": 66560,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 3977,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 804,
+                "y": 194,
+                "vx": -50176,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 4018,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 886,
+                "y": 194,
+                "vx": -159744,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 4879,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 560,
+                "y": 194,
+                "vx": 252928,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 4920,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 642,
+                "y": 194,
+                "vx": 227328,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 4961,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 724,
+                "y": 194,
+                "vx": 143360,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 5002,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 806,
+                "y": 194,
+                "vx": 59392,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 5043,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 888,
+                "y": 194,
+                "vx": -57344,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 5084,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 970,
+                "y": 194,
+                "vx": -141312,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 5125,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1052,
+                "y": 194,
+                "vx": -225280,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 6027,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 808,
+                "y": 194,
+                "vx": 235520,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 6068,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 890,
+                "y": 194,
+                "vx": 119808,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 6109,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 972,
+                "y": 194,
+                "vx": 23552,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 6150,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1054,
+                "y": 194,
+                "vx": -93184,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 6191,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1136,
+                "y": 194,
+                "vx": -142336,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 6232,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1218,
+                "y": 194,
+                "vx": -212992,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 7093,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 892,
+                "y": 194,
+                "vx": 292864,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 7134,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 974,
+                "y": 194,
+                "vx": 208896,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 7175,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1056,
+                "y": 194,
+                "vx": 118784,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 7216,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1138,
+                "y": 194,
+                "vx": 24576,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 7257,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1220,
+                "y": 194,
+                "vx": -92160,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 7298,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1302,
+                "y": 194,
+                "vx": -176128,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 8118,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 894,
+                "y": 194,
+                "vx": 289792,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 8159,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 976,
+                "y": 194,
+                "vx": 193536,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 8200,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1058,
+                "y": 194,
+                "vx": 122880,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 8241,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1140,
+                "y": 194,
+                "vx": 79872,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 8282,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1222,
+                "y": 194,
+                "vx": -36864,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 8323,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1304,
+                "y": 194,
+                "vx": -137216,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 9184,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 978,
+                "y": 194,
+                "vx": 221184,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 9225,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1060,
+                "y": 194,
+                "vx": 123904,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 9266,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1142,
+                "y": 194,
+                "vx": 55296,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 9307,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1224,
+                "y": 194,
+                "vx": -38912,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 9348,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1306,
+                "y": 194,
+                "vx": -169984,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10168,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 898,
+                "y": 194,
+                "vx": 268288,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10209,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 980,
+                "y": 194,
+                "vx": 184320,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10250,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1062,
+                "y": 194,
+                "vx": 151552,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10291,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1144,
+                "y": 194,
+                "vx": 80896,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10332,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1226,
+                "y": 194,
+                "vx": -22528,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10373,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1308,
+                "y": 194,
+                "vx": -104448,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10414,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1390,
+                "y": 194,
+                "vx": -188416,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 10455,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1472,
+                "y": 194,
+                "vx": -214016,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11316,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1146,
+                "y": 194,
+                "vx": 285696,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11357,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1228,
+                "y": 194,
+                "vx": 201728,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11398,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1310,
+                "y": 194,
+                "vx": 151552,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11439,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1392,
+                "y": 194,
+                "vx": 79872,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11480,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1474,
+                "y": 194,
+                "vx": 16384,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11521,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1556,
+                "y": 194,
+                "vx": -109568,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11562,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545668,
+                "o": 2149377664,
+                "x": 1638,
+                "y": 194,
+                "vx": -135168,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 11603,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1720,
+                "y": 194,
+                "vx": -219136,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 12382,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1230,
+                "y": 194,
+                "vx": 237568,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 12423,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1312,
+                "y": 194,
+                "vx": 167936,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 12464,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545668,
+                "o": 2149377664,
+                "x": 1394,
+                "y": 194,
+                "vx": 37888,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 12505,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1476,
+                "y": 194,
+                "vx": -78848,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 12546,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1558,
+                "y": 194,
+                "vx": -162816,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 12587,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1640,
+                "y": 194,
+                "vx": -165888,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 12628,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545668,
+                "o": 2149377664,
+                "x": 1722,
+                "y": 194,
+                "vx": -185344,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 13489,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1396,
+                "y": 194,
+                "vx": 201728,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 13530,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1478,
+                "y": 194,
+                "vx": 110592,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 13571,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1560,
+                "y": 194,
+                "vx": 26624,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 13612,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1642,
+                "y": 194,
+                "vx": -90112,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 13653,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1724,
+                "y": 194,
+                "vx": -166912,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 13694,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1806,
+                "y": 194,
+                "vx": -206848,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 14596,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1562,
+                "y": 194,
+                "vx": 348160,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 14637,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1644,
+                "y": 194,
+                "vx": 278528,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 14678,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1726,
+                "y": 194,
+                "vx": 237568,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 14719,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545620,
+                "o": 2149374960,
+                "x": 1808,
+                "y": 194,
+                "vx": 166912,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 14760,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545636,
+                "o": 2149375168,
+                "x": 1890,
+                "y": 194,
+                "vx": 102400,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              },
+              {
+                "tick": 14801,
+                "event": "spawn",
+                "type": 27,
+                "r": 2149545652,
+                "o": 2149375376,
+                "x": 1972,
+                "y": 194,
+                "vx": -23552,
+                "vy": -458752,
+                "script": 2147953032,
+                "emitter": 2149374128
+              }
+            ],
+            "mode": "won"
+          }
+        },
+        {
+          "level": "avalon",
+          "same": true,
+          "completion": {
+            "score": 2590,
+            "remaining": 1,
+            "energy": 48.5,
+            "power": 0,
+            "arena": 152,
+            "mode": "won",
+            "ramSHA256": "1db44d0d9e9ddd691c91bf3003f728720ac36ccf3778193fe5b25efce30c0075"
+          }
+        },
+        {
+          "level": "area17",
+          "same": true,
+          "completion": {
+            "score": 4490,
+            "source_remaining_field": 1,
+            "visible_remaining": 0,
+            "cleanup": true,
+            "energy": 65,
+            "power": 0,
+            "arena": 288,
+            "mode": "won",
+            "ramSHA256": "b76a8a476ff13a8b204d2885a975498d7b49fe3e346a66c312102d591a2db6ce"
+          }
+        },
+        {
+          "level": "jur-angeles",
+          "same": true,
+          "completion": {
+            "score": 3130,
+            "remaining": 1,
+            "energy": 26.5,
+            "power": 0,
+            "arena": 182,
+            "mode": "won",
+            "ramSHA256": "0384924fe70d8dec70736c9e0a346c72efbfd6fd9135f846572d16fed52bd813"
+          }
+        },
+        {
+          "level": "cairo",
+          "same": true,
+          "completion": {
+            "score": 3560,
+            "remaining": 1,
+            "energy": 46.25,
+            "power": 0,
+            "arena": 252,
+            "mode": "won",
+            "ramSHA256": "a552ef4d65abe5161c7012ddba47b73195a1f335ae48f8f5c1f67c4539e69a29"
+          }
+        },
+        {
+          "level": "lyons",
+          "same": true,
+          "completion": {
+            "score": 2750,
+            "remaining": 1,
+            "energy": 40.25,
+            "power": 0,
+            "arena": 157,
+            "mode": "won",
+            "ramSHA256": "37bd72188ee76c70b4df9fdaa9796ce06582eea76cc3de856365945d37be5adb"
+          }
+        },
+        {
+          "level": "beijing",
+          "same": true,
+          "completion": {
+            "score": 3260,
+            "remaining": 1,
+            "energy": 64.5,
+            "power": 0,
+            "arena": 215,
+            "mode": "won",
+            "ramSHA256": "5c5690dea213fe9fb993002abbddf16d91bd1c4ba7bfb0ca2ed72d4d9711817d"
+          }
+        },
+        {
+          "level": "athens",
+          "same": true,
+          "completion": {
+            "score": 4350,
+            "remaining": 1,
+            "energy": 61.25,
+            "power": 0,
+            "arena": 271,
+            "mode": "won",
+            "ramSHA256": "374d8faaefac4c0ea7ef66fc8ad525fbe5cfdb04d0b6a1a4bda5ddd018ec3d92"
+          }
+        },
+        {
+          "level": "kobe",
+          "same": true,
+          "completion": {
+            "score": 5510,
+            "remaining": 1,
+            "energy": 53.5,
+            "power": 0,
+            "arena": 378,
+            "mode": "won",
+            "ramSHA256": "d0bb1de5c3e845943e45225de0a114d6593da48443d9dedd57cde6b3b9e10118"
+          }
+        },
+        {
+          "level": "shiraz",
+          "same": true,
+          "completion": {
+            "score": 4380,
+            "remaining": 1,
+            "energy": 12,
+            "power": 0,
+            "arena": 282,
+            "mode": "won",
+            "ramSHA256": "cfa17d5a3e2c6ce1a665818731301376d285557ffd9b4274deef24bbcd38cebe"
+          }
+        },
+        {
+          "level": "luzon",
+          "same": true,
+          "completion": {
+            "score": 3450,
+            "remaining": 1,
+            "energy": 53.75,
+            "power": 0,
+            "arena": 149,
+            "mode": "won",
+            "ramSHA256": "2c26651d5de181eca6768649b5c3c0233d07ee28c9fbeedfb2dd16c8f9f94b33"
+          }
+        },
+        {
+          "level": "london",
+          "same": true,
+          "completion": {
+            "score": 3290,
+            "remaining": 1,
+            "energy": 65,
+            "power": 0,
+            "arena": 214,
+            "mode": "won",
+            "ramSHA256": "b57bd6c3e8ca961240965f115d2c31a939ba62f340a12f1fcc1f31fab2ff15b4"
+          }
+        },
+        {
+          "level": "divax",
+          "same": true,
+          "completion": {
+            "score": 3460,
+            "remaining": 1,
+            "energy": 3.625,
+            "power": 0,
+            "arena": 254,
+            "mode": "won",
+            "ramSHA256": "b04c476c3ea7b911b4fa970404041465df10ad8ecdaedf9e5d3dfa6e9d5dd226"
+          }
+        },
+        {
+          "level": "dearborn",
+          "same": true,
+          "completion": {
+            "score": 3390,
+            "remaining": 1,
+            "energy": 25,
+            "power": 0,
+            "arena": 255,
+            "mode": "won",
+            "ramSHA256": "03dde95bb1c6cd2098d31980cc453e38dbe685f90e4759ca1b7a6fbced036f7c"
+          }
+        },
+        {
+          "level": "macchu-pichu",
+          "same": true,
+          "completion": {
+            "score": 3410,
+            "remaining": 1,
+            "energy": 29.5,
+            "power": 0,
+            "arena": 206,
+            "mode": "won",
+            "ramSHA256": "d737745469e63d985dcf749367db720092054f354079921fb0c08cc391211c66"
+          }
+        },
+        {
+          "level": "tok",
+          "same": true,
+          "completion": {
+            "score": 3600,
+            "remaining": 1,
+            "energy": 44.25,
+            "power": 0,
+            "arena": 237,
+            "mode": "won",
+            "ramSHA256": "b37f55faf47a56a56773580adad2a303358b0daa2269db5d7fee0bed0a86abb8"
+          }
+        },
+        {
+          "level": "cleito",
+          "same": true,
+          "completion": {
+            "score": 3610,
+            "remaining": 1,
+            "energy": 68,
+            "power": 0,
+            "arena": 169,
+            "mode": "won",
+            "ramSHA256": "861694646952bed3be05c178efdab414fbf6680c6e362121e93499a24c931eed"
+          }
+        },
+        {
+          "level": "james-town",
+          "same": true,
+          "completion": {
+            "score": 3080,
+            "remaining": 1,
+            "energy": 63,
+            "power": 0,
+            "arena": 141,
+            "mode": "won",
+            "ramSHA256": "53cb8bb0a2d9d833663a9c81d00d7f422eb973eeaef62872069acc5ec85aba9f"
+          }
+        },
+        {
+          "level": "rome",
+          "same": true,
+          "completion": {
+            "score": 3930,
+            "remaining": 1,
+            "energy": 39,
+            "power": 0,
+            "arena": 231,
+            "mode": "won",
+            "ramSHA256": "097777f005752ba1099876874ec9a81f8b8d884c9926a71624b9c053ad83d951"
+          }
+        },
+        {
+          "level": "opecville",
+          "same": true,
+          "completion": {
+            "score": 3540,
+            "remaining": 1,
+            "energy": 38,
+            "power": 0,
+            "arena": 218,
+            "mode": "won",
+            "ramSHA256": "34bb1972dd944331fec2003fa493f49548a701567be702bdb3621679a29306b3"
+          }
+        }
+      ],
+      "scope": "20 actual controlled-host full routes terminal RAM/energy/arena/score same as frozen57. Render visibility split preserves original simulation flags/core behavior; no browser/phone pass."
+    },
+    "source-change-audit.json": {
+      "passed": true,
+      "changed": [
+        "play.html",
+        "game.js",
+        "index.html",
+        "traffic-model.js"
+      ],
+      "native_core_files_unchanged": true,
+      "source_simulation_visibility_unchanged": true,
+      "new_native_cpu_cases": 0,
+      "scope": "Final exact byte comparison with frozen57. Only traffic display bounds/current frame/loop coordinate, actualCanvas width supply and build label/composition differ. Original simulation visibility helper byte-preserved, all native cores/assets/campaign untouched."
+    },
+    "campaign-route.json": {
+      "passed": true,
+      "scope": "New Web campaign: twenty actual key-only full routes under controlled DOM/RAF plus supplied file storage/recreated documents; not browser/iPhone or original campaign proof.",
+      "out": [
+        {
+          "level": "old-west",
+          "score": 3140,
+          "stage": 1,
+          "finished": false,
+          "unlocked": 2
+        },
+        {
+          "level": "avalon",
+          "score": 2590,
+          "stage": 2,
+          "finished": false,
+          "unlocked": 3
+        },
+        {
+          "level": "area17",
+          "score": 4490,
+          "stage": 3,
+          "finished": false,
+          "unlocked": 4
+        },
+        {
+          "level": "jur-angeles",
+          "score": 3130,
+          "stage": 4,
+          "finished": false,
+          "unlocked": 5
+        },
+        {
+          "level": "cairo",
+          "score": 3560,
+          "stage": 5,
+          "finished": false,
+          "unlocked": 6
+        },
+        {
+          "level": "lyons",
+          "score": 2750,
+          "stage": 6,
+          "finished": false,
+          "unlocked": 7
+        },
+        {
+          "level": "beijing",
+          "score": 3260,
+          "stage": 7,
+          "finished": false,
+          "unlocked": 8
+        },
+        {
+          "level": "athens",
+          "score": 4350,
+          "stage": 8,
+          "finished": false,
+          "unlocked": 9
+        },
+        {
+          "level": "kobe",
+          "score": 5510,
+          "stage": 9,
+          "finished": false,
+          "unlocked": 10
+        },
+        {
+          "level": "shiraz",
+          "score": 4380,
+          "stage": 10,
+          "finished": false,
+          "unlocked": 11
+        },
+        {
+          "level": "luzon",
+          "score": 3450,
+          "stage": 11,
+          "finished": false,
+          "unlocked": 12
+        },
+        {
+          "level": "london",
+          "score": 3290,
+          "stage": 12,
+          "finished": false,
+          "unlocked": 13
+        },
+        {
+          "level": "divax",
+          "score": 3460,
+          "stage": 13,
+          "finished": false,
+          "unlocked": 14
+        },
+        {
+          "level": "dearborn",
+          "score": 3390,
+          "stage": 14,
+          "finished": false,
+          "unlocked": 15
+        },
+        {
+          "level": "macchu-pichu",
+          "score": 3410,
+          "stage": 15,
+          "finished": false,
+          "unlocked": 16
+        },
+        {
+          "level": "tok",
+          "score": 3600,
+          "stage": 16,
+          "finished": false,
+          "unlocked": 17
+        },
+        {
+          "level": "cleito",
+          "score": 3610,
+          "stage": 17,
+          "finished": false,
+          "unlocked": 18
+        },
+        {
+          "level": "james-town",
+          "score": 3080,
+          "stage": 18,
+          "finished": false,
+          "unlocked": 19
+        },
+        {
+          "level": "rome",
+          "score": 3930,
+          "stage": 19,
+          "finished": false,
+          "unlocked": 20
+        },
+        {
+          "level": "opecville",
+          "score": 3540,
+          "stage": 19,
+          "finished": true,
+          "unlocked": 20
+        }
+      ],
+      "total": 71920
+    },
+    "regression-all20.json": {
       "passed": true,
       "scope": "Host DOM/RAF keyboard/pointer callbacks and injected fault; not physical phone or full-engine evidence.",
       "result": [
         {
-          "case": "unchanged49 keyboard Space+K reproduces original freeze",
-          "passed": true
-        },
-        {
-          "case": "area17 100 pure-jump presses",
+          "case": "old-west 100 pure-jump presses",
           "passed": true,
           "tick": 7202
         },
         {
-          "case": "area17 100 jump+K attacks",
+          "case": "old-west 100 jump+K attacks",
           "passed": true,
           "tick": 7299
         },
         {
-          "case": "area17 30 supplied dual-pointer jump+punch/release",
+          "case": "old-west 30 supplied dual-pointer jump+punch/release",
           "passed": true
         },
         {
@@ -769,17 +3844,255 @@
           "passed": true
         },
         {
-          "case": "old-west 100 pure-jump presses",
+          "case": "area17 100 pure-jump presses",
           "passed": true,
           "tick": 7202
         },
         {
-          "case": "old-west 100 jump+K attacks",
+          "case": "area17 100 jump+K attacks",
           "passed": true,
           "tick": 7299
         },
         {
-          "case": "old-west 30 supplied dual-pointer jump+punch/release",
+          "case": "area17 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "jur-angeles 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "jur-angeles 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "jur-angeles 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "cairo 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "cairo 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "cairo 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "lyons 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "lyons 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "lyons 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "beijing 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "beijing 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "beijing 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "athens 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "athens 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "athens 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "kobe 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "kobe 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "kobe 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "shiraz 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "shiraz 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "shiraz 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "luzon 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "luzon 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "luzon 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "london 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "london 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "london 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "divax 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "divax 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "divax 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "dearborn 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "dearborn 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "dearborn 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "macchu-pichu 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "macchu-pichu 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "macchu-pichu 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "tok 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "tok 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "tok 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "cleito 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "cleito 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "cleito 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "james-town 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "james-town 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "james-town 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "rome 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "rome 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "rome 30 supplied dual-pointer jump+punch/release",
+          "passed": true
+        },
+        {
+          "case": "opecville 100 pure-jump presses",
+          "passed": true,
+          "tick": 7202
+        },
+        {
+          "case": "opecville 100 jump+K attacks",
+          "passed": true,
+          "tick": 7299
+        },
+        {
+          "case": "opecville 30 supplied dual-pointer jump+punch/release",
           "passed": true
         },
         {
@@ -788,45 +4101,315 @@
         }
       ]
     },
-    "stress": [
-      {
-        "seed": 1,
-        "passed": true,
-        "tick": 180991,
-        "blocks": 3000,
-        "errors": []
-      },
-      {
-        "seed": 2,
-        "passed": true,
-        "tick": 183387,
-        "blocks": 3000,
-        "errors": []
-      },
-      {
-        "seed": 3,
-        "passed": true,
-        "tick": 180320,
-        "blocks": 3000,
-        "errors": []
-      }
-    ],
-    "browser": {
-      "build": 50,
-      "ordinaryScripts": 74,
-      "source": "outputs/rampage-era50/play.html",
-      "actions": [
-        "start",
-        "Space+K600ms (old49 throws)",
-        "Right+Space2000ms",
-        "12 alternating Space and Space+K220ms",
-        "Right2000ms",
-        "Up3000ms",
-        "pause"
-      ],
-      "logs": [],
-      "scope": "Actual IAB native keys, ordinary standalone. No observer, game-state writes or clock injection. Targeted regression, not full11 browser replay or iPhone acceptance."
+    "soak-all20.json": {
+      "passed": true,
+      "scope": "Host deterministic DOM/RAF mixed native keyboard blocks and live pool checks; not performance benchmark or mobile/original engine proof.",
+      "out": [
+        {
+          "level": "old-west",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 63,
+          "maxPool": 2,
+          "projectileTypes": [
+            1,
+            27
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "avalon",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 56,
+          "maxPool": 2,
+          "projectileTypes": [
+            24,
+            28
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "area17",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 97,
+          "maxPool": 11,
+          "projectileTypes": [
+            1,
+            6,
+            7,
+            17,
+            32
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "jur-angeles",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 63,
+          "maxPool": 2,
+          "projectileTypes": [
+            24
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "cairo",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 79,
+          "maxPool": 4,
+          "projectileTypes": [
+            24,
+            30,
+            33
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "lyons",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 62,
+          "maxPool": 5,
+          "projectileTypes": [
+            5,
+            7
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "beijing",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 70,
+          "maxPool": 5,
+          "projectileTypes": [
+            24,
+            28,
+            35
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "athens",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 94,
+          "maxPool": 3,
+          "projectileTypes": [
+            24,
+            33
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "kobe",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 112,
+          "maxPool": 6,
+          "projectileTypes": [
+            1,
+            36
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "shiraz",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 87,
+          "maxPool": 6,
+          "projectileTypes": [
+            24,
+            25,
+            33
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "luzon",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 59,
+          "maxPool": 2,
+          "projectileTypes": [
+            1,
+            26
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "london",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 65,
+          "maxPool": 2,
+          "projectileTypes": [
+            1,
+            26
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "divax",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 91,
+          "maxPool": 12,
+          "projectileTypes": [
+            1,
+            2,
+            5,
+            21,
+            22
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "dearborn",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 95,
+          "maxPool": 16,
+          "projectileTypes": [
+            1,
+            5,
+            9,
+            17
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "macchu-pichu",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 73,
+          "maxPool": 2,
+          "projectileTypes": [
+            24
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "tok",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 81,
+          "maxPool": 4,
+          "projectileTypes": [
+            24,
+            29,
+            37
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "cleito",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 67,
+          "maxPool": 3,
+          "projectileTypes": [
+            24
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "james-town",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 61,
+          "maxPool": 5,
+          "projectileTypes": [
+            1,
+            31,
+            40
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "rome",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 82,
+          "maxPool": 4,
+          "projectileTypes": [
+            7,
+            24,
+            26
+          ],
+          "restartCleared": true
+        },
+        {
+          "level": "opecville",
+          "blocks": 60,
+          "ticks": 3600,
+          "maxArena": 81,
+          "maxPool": 4,
+          "projectileTypes": [
+            1,
+            36
+          ],
+          "restartCleared": true
+        }
+      ]
     },
-    "scope": "50 targeted ordinary74 browser evidence; full user acceptance recorded separately in acceptance.json. Historical49 full browser evidence retained separately."
-  }
+    "pool-preflight-test.json": {
+      "passed": true,
+      "scope": "Supplied allocator saturation boundary. Web safeguard separate from native cores; no original equivalence/desktop/mobile play claim.",
+      "out": [
+        "Native matched source3A568 increments20->21 when first20 slots occupied; zero allocator calls, final free21st slot unused. Core retained.",
+        "rome explicit Web full-pool preflight preserves count/arena; new world resets pool",
+        "opecville explicit Web full-pool preflight preserves count/arena; new world resets pool"
+      ]
+    },
+    "browser58-verification.json": {
+      "passed": true,
+      "ordinary": {
+        "build": 58,
+        "modules": 97,
+        "scenes": [
+          "Avalon right-edge ground actor partly visible",
+          "OldWest right-area flying enemy visible",
+          "Area17 complete right-area vehicle visible"
+        ],
+        "old57_avalon_observation_retained": true,
+        "not_frame_synchronized": true,
+        "warn_error_logs": 0
+      },
+      "standalone": {
+        "build": 58,
+        "modules": 97,
+        "external_scripts": 0,
+        "embedded_images": 30,
+        "all_images_loaded": true,
+        "area17_vehicle_visible": true,
+        "paused": true,
+        "sha256": "5bb58cda15d22d4c755128a800674794f0061541c7e81cc6a7cb9200d8363fe6",
+        "warn_error_logs": 0
+      },
+      "not_claimed": [
+        "All browser left-edge/wrap scenarios",
+        "iPhone or whole20 phone acceptance",
+        "Original GPU behavior or new original CPU comparisons"
+      ]
+    }
+  },
+  "phone": {
+    "build": 58,
+    "status": "pending_visibility_retest",
+    "user_defect": "Every level; ground/flying enemies disappear inside left/right displayed area",
+    "whole20_phone_acceptance": "still_pending",
+    "scope": "Targeted defect check is separate from complete iPhone checklist; desktop rendering proof does not imply phone pass."
+  },
+  "new_external_publication": false,
+  "remaining": [
+    "Targeted real iPhone left/right visibility retest",
+    "Full20 unified iPhone checklist still pending",
+    "All57 source limitations unchanged: not all60cities/fullcharacters/fullengine/codec/originalmusic/action43; Cleito ground locomotion; source-unloaded animation branches disclosed"
+  ]
 }

@@ -1,1 +1,1 @@
-Build50第三阶段最终用户验收通过。直接打开play.html或静态托管。三关George；音效需要点击开启，无原版音乐。详REPORT.md、acceptance.json、provenance.json。50未外网发布，48线上不变。
+Build58 二十个时代代表关 / George。play.html 为独立页。敌人左右显示问题专项复测通过；整体手机验收由用户暂缓。详 README.html、REPORT58.md 与 acceptance.json。

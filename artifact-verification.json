@@ -1,7 +1,9 @@
 {
-  "build": 50,
-  "source_zip": "rampage-three-era-web-build50-final.zip",
-  "source_zip_sha256": "67341ebc99e95e9831492604bd82e4560819f70ec67a9dd83702bb191c3da35c",
-  "verification": "Frozen ZIP CRC and all checksums.json entries verified before publication; runtime unchanged.",
-  "acceptance": "See acceptance.json; deployment smoke test recorded separately."
+  "build": 58,
+  "source_zip": "rampage-twenty-era-web-build58.zip",
+  "source_zip_sha256": "ceda38c37a1a8034c7b31148b94dd50e62f14db33a05044708f4a82e9896a93e",
+  "original_package_checksums": "source-checksums-build58.json",
+  "runtime_changed": false,
+  "publication_changes": "Landing pages and public readme updated for publication and latest targeted acceptance; original runtime, provenance, report and screenshot preserved.",
+  "acceptance": "targeted_visibility_pass; whole20_phone_acceptance deferred_by_user"
 }
