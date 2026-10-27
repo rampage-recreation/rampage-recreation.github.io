@@ -1,9 +1,13 @@
 {
-  "build": 58,
-  "source_zip": "rampage-twenty-era-web-build58.zip",
-  "source_zip_sha256": "ceda38c37a1a8034c7b31148b94dd50e62f14db33a05044708f4a82e9896a93e",
-  "original_package_checksums": "source-checksums-build58.json",
-  "runtime_changed": false,
-  "publication_changes": "Landing pages and public readme updated for publication and latest targeted acceptance; original runtime, provenance, report and screenshot preserved.",
-  "acceptance": "targeted_visibility_pass; whole20_phone_acceptance deferred_by_user"
+  "build": 61,
+  "source_zip": "rampage-twenty-era-web-build61.zip",
+  "source_zip_sha256": "de73444c06e561f8548a1606bac94e3673ef892de962b3f42c1ba626b70fa85f",
+  "original_package_checksums": "source-checksums-build61.json",
+  "frozen_runtime_unchanged": true,
+  "frozen_play_sha256": "c2da39763bdf943e75d9439d34c6cef2f97310e7d2b3603ed8f4dab0377d6e8a",
+  "frozen_archive_crc": "passed",
+  "frozen_payload_sha_count": 6,
+  "package_actual_extraction_rebuild_replay": "work/performance61/package-verification61.json passed;7host jobs",
+  "publication_changes": "Landing/readme/compat report aliases and current acceptance metadata only; previous report snapshots preserved. Whole phone test deferred.",
+  "rollback_commit": "8a861655183f98fcbfbfa45273638184e0462527"
 }

@@ -1,1 +1,1 @@
-Build58 二十个时代代表关 / George。play.html 为独立页。敌人左右显示问题专项复测通过；整体手机验收由用户暂缓。详 README.html、REPORT58.md 与 acceptance.json。
+Build61二十时代代表关/George。play.html独立运行，当前关图集和静止画面优化、高楼下爬修复。完整手机验收暂缓。详README.md、REPORT61.md、acceptance.json。

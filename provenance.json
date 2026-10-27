@@ -1,3668 +1,721 @@
 {
-  "build": 58,
-  "status": "visibility_fix_desktop_qualified_phone_retest_pending",
-  "baseline_build": 57,
-  "levels": {
-    "schema_version": 1,
-    "runtime": "captured-level-pack",
-    "baseline": 56,
-    "levels": [
-      {
-        "id": "old-west",
-        "name": "Old West",
-        "short": "OLD WEST",
-        "payload": "oldWest",
-        "source_buildings": 8,
-        "images": {
-          "building": "destructionSprite",
-          "scenery": "scenerySprite",
-          "resident": "residentSprite",
-          "traffic": "trafficSprite",
-          "projectile": "projectileSprite"
-        },
-        "traffic_families": {
-          "22": "flying",
-          "46": "coach"
-        },
-        "resident_types": [
-          13,
-          14,
-          15
-        ],
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Accepted Old West8-building Build50 behavior baseline; captured assets and declared Web adapters retained."
-      },
-      {
-        "id": "avalon",
-        "name": "Avalon",
-        "short": "AVALON",
-        "payload": "avalon",
-        "source_buildings": 7,
-        "images": {
-          "building": "avalonSprite",
-          "scenery": "avalonSprite",
-          "resident": "avalonSprite",
-          "traffic": "avalonSprite"
-        },
-        "traffic_families": {
-          "25": "flying",
-          "13": "ground13"
-        },
-        "resident_types": [
-          19,
-          20
-        ],
-        "recovery_protection_ticks": 60,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Accepted Avalon7-building Build50 baseline. Residents19/20, traffic25/13 and projectile28; recovery60ticks is a Web playability adaptation."
-      },
-      {
-        "id": "area17",
-        "name": "Area 17",
-        "short": "AREA 17",
-        "payload": "area17",
-        "source_buildings": 11,
-        "layout_index": 57,
-        "stage_slot": 76,
-        "images": {
-          "building": "area17Sprite",
-          "scenery": "area17Sprite",
-          "resident": "area17Sprite",
-          "traffic": "area17Sprite",
-          "projectile": "area17Sprite"
-        },
-        "traffic_families": {
-          "9": "plane9",
-          "34": "flying",
-          "47": "road47"
-        },
-        "resident_types": [
-          26,
-          30
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Area17 captured11 buildings/27 item placements, residents26/30, traffic9/47/34 and projectiles6/7/17/32. Bounded original control compared; scene allocation/clock/visibility/RNG and60tick escape protection remain Web adaptations. Accepted Build50 source geometry/combat baseline retained, including original declared bridge boundaries.",
-        "compatibility": {
-          "resident26LegacyBridge": true
-        }
-      },
-      {
-        "id": "jur-angeles",
-        "name": "Jur Angeles",
-        "short": "JUR ANGELES",
-        "payload": "jurAngeles",
-        "source_buildings": 8,
-        "layout_index": 9,
-        "stage_slot": 72,
-        "images": {
-          "building": "jurAngelesSprite",
-          "scenery": "jurAngelesSprite",
-          "resident": "jurAngelesSprite",
-          "traffic": "jurAngelesSprite",
-          "projectile": "jurAngelesSprite"
-        },
-        "traffic_families": {
-          "24": "flying",
-          "12": "ground13"
-        },
-        "resident_types": [
-          18,
-          17
-        ],
-        "projectile_types": [
-          24
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Jur Angeles: source-loaded 8 buildings, current-era resident/traffic/projectile scripts and pixels. Bounded original MIPS control compared. Scene clock/visibility/allocation/RNG/60tick recovery protection/campaign/storage/synth sounds are Web adaptations. No full original engine or independent codec claim."
-      },
-      {
-        "id": "cairo",
-        "name": "Cairo",
-        "short": "CAIRO",
-        "payload": "cairo",
-        "source_buildings": 8,
-        "layout_index": 30,
-        "stage_slot": 40,
-        "images": {
-          "building": "cairoSprite",
-          "scenery": "cairoSprite",
-          "resident": "cairoSprite",
-          "traffic": "cairoSprite",
-          "projectile": "cairoSprite"
-        },
-        "traffic_families": {
-          "4": "plane9",
-          "27": "flying"
-        },
-        "resident_types": [
-          9,
-          8
-        ],
-        "projectile_types": [
-          24,
-          33,
-          30
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Cairo: source-loaded 8 buildings, current-era resident/traffic/projectile scripts and pixels. Bounded original MIPS control compared. Scene clock/visibility/allocation/RNG/60tick recovery protection/campaign/storage/synth sounds are Web adaptations. No full original engine or independent codec claim."
-      },
-      {
-        "id": "lyons",
-        "name": "Lyons",
-        "short": "LYONS",
-        "payload": "lyons",
-        "source_buildings": 7,
-        "layout_index": 51,
-        "stage_slot": 60,
-        "images": {
-          "building": "lyonsSprite",
-          "scenery": "lyonsSprite",
-          "resident": "lyonsSprite",
-          "traffic": "lyonsSprite",
-          "projectile": "lyonsSprite"
-        },
-        "traffic_families": {
-          "7": "plane9",
-          "41": "float41"
-        },
-        "resident_types": [
-          26,
-          27
-        ],
-        "projectile_types": [
-          1,
-          7,
-          5
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Lyons: source-loaded 7 buildings, current-era resident/traffic/projectile scripts and pixels. Bounded original MIPS control compared. Scene clock/visibility/allocation/RNG/60tick recovery protection/campaign/storage/synth sounds are Web adaptations. No full original engine or independent codec claim."
-      },
-      {
-        "id": "beijing",
-        "name": "Beijing",
-        "short": "BEIJING",
-        "payload": "beijing",
-        "source_buildings": 8,
-        "layout_index": 12,
-        "stage_slot": 8,
-        "images": {
-          "building": "beijingSprite",
-          "scenery": "beijingSprite",
-          "resident": "beijingSprite",
-          "traffic": "beijingSprite",
-          "projectile": "beijingSprite"
-        },
-        "traffic_families": {
-          "23": "flying",
-          "11": "ground13"
-        },
-        "resident_types": [
-          16
-        ],
-        "projectile_types": [
-          1,
-          24,
-          28,
-          35
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Beijing: current source capture supplies scene geometry/assets/selectors. Bounded original field controllers compared separately; clock/visibility/allocation/RNG/recovery60ticks/sky interpolation/campaign/storage/synth audio are Web adapters. Internal53, integration verification ongoing."
-      },
-      {
-        "id": "athens",
-        "name": "Athens",
-        "short": "ATHENS",
-        "payload": "athens",
-        "source_buildings": 11,
-        "layout_index": 36,
-        "stage_slot": 52,
-        "images": {
-          "building": "athensSprite",
-          "scenery": "athensSprite",
-          "resident": "athensSprite",
-          "traffic": "athensSprite",
-          "projectile": "athensSprite"
-        },
-        "traffic_families": {
-          "5": "plane9",
-          "28": "flying"
-        },
-        "resident_types": [
-          22
-        ],
-        "projectile_types": [
-          1,
-          24,
-          33
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Athens: current source capture supplies scene geometry/assets/selectors. Bounded original field controllers compared separately; clock/visibility/allocation/RNG/recovery60ticks/sky interpolation/campaign/storage/synth audio are Web adapters. Internal53, integration verification ongoing."
-      },
-      {
-        "id": "kobe",
-        "name": "Kobe",
-        "short": "KOBE",
-        "payload": "kobe",
-        "source_buildings": 13,
-        "layout_index": 48,
-        "stage_slot": 16,
-        "images": {
-          "building": "kobeSprite",
-          "scenery": "kobeSprite",
-          "resident": "kobeSprite",
-          "traffic": "kobeSprite",
-          "projectile": "kobeSprite"
-        },
-        "traffic_families": {
-          "17": "ground13",
-          "36": "flying"
-        },
-        "resident_types": [
-          29
-        ],
-        "projectile_types": [
-          1,
-          36
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Kobe: current source capture supplies scene geometry/assets/selectors. Bounded original field controllers compared separately; clock/visibility/allocation/RNG/recovery60ticks/sky interpolation/campaign/storage/synth audio are Web adapters. Internal53, integration verification ongoing."
-      },
-      {
-        "id": "shiraz",
-        "name": "Shiraz",
-        "short": "SHIRAZ",
-        "payload": "shiraz",
-        "source_buildings": 10,
-        "layout_index": 0,
-        "stage_slot": 0,
-        "images": {
-          "building": "shirazSprite",
-          "scenery": "shirazSprite",
-          "resident": "shirazSprite",
-          "traffic": "shirazSprite",
-          "projectile": "shirazSprite"
-        },
-        "traffic_families": {
-          "8": "plane9",
-          "19": "flying"
-        },
-        "resident_types": [
-          1,
-          2
-        ],
-        "projectile_types": [
-          24,
-          25,
-          33
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Fresh Shiraz source1C6E8 supplied-load capture, current-era original assets/selectors. Qualified bounded local fields; clock/visibility/allocator/RNG/input/sky interpolation/recovery60ticks/campaign/synth audio remain Web adapters. Internal54 integration pending whole-level/desktop qualification. Source-unloaded NPC animation requests retire/recycle the slot as an explicit Web boundary; no foreign-era frame fallback.",
-        "compatibility": {
-          "strictCurrentEraFrames": true
-        }
-      },
-      {
-        "id": "luzon",
-        "name": "Luzon",
-        "short": "LUZON",
-        "payload": "luzon",
-        "source_buildings": 10,
-        "layout_index": 15,
-        "stage_slot": 36,
-        "images": {
-          "building": "luzonSprite",
-          "scenery": "luzonSprite",
-          "resident": "luzonSprite",
-          "traffic": "luzonSprite",
-          "projectile": "luzonSprite"
-        },
-        "traffic_families": {
-          "15": "ground13",
-          "33": "flying"
-        },
-        "resident_types": [
-          28
-        ],
-        "projectile_types": [
-          1,
-          26
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Fresh Luzon source1C6E8 supplied-load capture, current-era original assets/selectors. Qualified bounded local fields; clock/visibility/allocator/RNG/input/sky interpolation/recovery60ticks/campaign/synth audio remain Web adapters. Internal54 integration pending whole-level/desktop qualification. Source-unloaded NPC animation requests retire/recycle the slot as an explicit Web boundary; no foreign-era frame fallback.",
-        "compatibility": {
-          "strictCurrentEraFrames": true
-        }
-      },
-      {
-        "id": "london",
-        "name": "London",
-        "short": "LONDON",
-        "payload": "london",
-        "source_buildings": 8,
-        "layout_index": 21,
-        "stage_slot": 28,
-        "images": {
-          "building": "londonSprite",
-          "scenery": "londonSprite",
-          "resident": "londonSprite",
-          "traffic": "londonSprite",
-          "projectile": "londonSprite"
-        },
-        "traffic_families": {
-          "20": "flying"
-        },
-        "resident_types": [
-          6,
-          7
-        ],
-        "projectile_types": [
-          1,
-          26
-        ],
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Fresh London source1C6E8 supplied-load capture, current-era original assets/selectors. Qualified bounded local fields; clock/visibility/allocator/RNG/input/sky interpolation/recovery60ticks/campaign/synth audio remain Web adapters. Internal54 integration pending whole-level/desktop qualification. Source-unloaded NPC animation requests retire/recycle the slot as an explicit Web boundary; no foreign-era frame fallback.",
-        "compatibility": {
-          "strictCurrentEraFrames": true
-        }
-      },
-      {
-        "id": "divax",
-        "name": "Divax",
-        "short": "DIVAX",
-        "payload": "divax",
-        "source_buildings": 8,
-        "layout_index": 18,
-        "stage_slot": 4,
-        "images": {
-          "building": "divaxSprite",
-          "scenery": "divaxSprite",
-          "resident": "divaxSprite",
-          "traffic": "divaxSprite",
-          "projectile": "divaxSprite"
-        },
-        "traffic_families": {
-          "18": "flying",
-          "1": "plane9",
-          "38": "float41"
-        },
-        "resident_types": [
-          3,
-          4,
-          5
-        ],
-        "projectile_types": [
-          1,
-          2,
-          5,
-          21,
-          22,
-          24
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Current Divax supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Internal55 integration not yet full-route/browser qualified. Web preflight rejects requests when all first20 source slots are occupied, avoiding source3A568 count-increment-before-slot-failure in this renderer allocator; native core retains original failure fields."
-      },
-      {
-        "id": "dearborn",
-        "name": "Dearborn",
-        "short": "DEARBORN",
-        "payload": "dearborn",
-        "source_buildings": 8,
-        "layout_index": 24,
-        "stage_slot": 12,
-        "images": {
-          "building": "dearbornSprite",
-          "scenery": "dearbornSprite",
-          "resident": "dearbornSprite",
-          "traffic": "dearbornSprite",
-          "projectile": "dearbornSprite"
-        },
-        "traffic_families": {
-          "40": "float41",
-          "44": "coach",
-          "2": "plane9"
-        },
-        "resident_types": [
-          10,
-          11,
-          12
-        ],
-        "projectile_types": [
-          1,
-          5,
-          9,
-          17,
-          24
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Current Dearborn supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Internal55 integration not yet full-route/browser qualified. Web preflight rejects requests when all first20 source slots are occupied, avoiding source3A568 count-increment-before-slot-failure in this renderer allocator; native core retains original failure fields."
-      },
-      {
-        "id": "macchu-pichu",
-        "name": "Macchu Pichu",
-        "short": "MACCHU PICHU",
-        "payload": "macchu-pichu",
-        "source_buildings": 9,
-        "layout_index": 27,
-        "stage_slot": 64,
-        "images": {
-          "building": "macchu-pichuSprite",
-          "scenery": "macchu-pichuSprite",
-          "resident": "macchu-pichuSprite",
-          "traffic": "macchu-pichuSprite",
-          "projectile": "macchu-pichuSprite"
-        },
-        "traffic_families": {
-          "21": "flying",
-          "10": "ground13"
-        },
-        "resident_types": [
-          9,
-          8
-        ],
-        "projectile_types": [
-          1,
-          24
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Current Macchu Pichu supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Internal55 integration not yet full-route/browser qualified. Web preflight rejects requests when all first20 source slots are occupied, avoiding source3A568 count-increment-before-slot-failure in this renderer allocator; native core retains original failure fields."
-      },
-      {
-        "id": "tok",
-        "name": "Tok",
-        "short": "TOK",
-        "payload": "tok",
-        "source_buildings": 9,
-        "layout_index": 33,
-        "stage_slot": 32,
-        "images": {
-          "building": "tokSprite",
-          "scenery": "tokSprite",
-          "resident": "tokSprite",
-          "traffic": "tokSprite",
-          "projectile": "tokSprite"
-        },
-        "traffic_families": {
-          "3": "plane9",
-          "26": "flying"
-        },
-        "resident_types": [
-          21
-        ],
-        "projectile_types": [
-          24,
-          29,
-          37
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Current Tok supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Build56 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
-      },
-      {
-        "id": "cleito",
-        "name": "Cleito",
-        "short": "CLEITO",
-        "payload": "cleito",
-        "source_buildings": 10,
-        "layout_index": 39,
-        "stage_slot": 48,
-        "images": {
-          "building": "cleitoSprite",
-          "scenery": "cleitoSprite",
-          "resident": "cleitoSprite",
-          "traffic": "cleitoSprite",
-          "projectile": "cleitoSprite"
-        },
-        "traffic_families": {
-          "29": "flying",
-          "30": "flying"
-        },
-        "resident_types": [
-          8
-        ],
-        "projectile_types": [
-          24
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Current Cleito supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Build56 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
-      },
-      {
-        "id": "james-town",
-        "name": "James Town",
-        "short": "JAMES TOWN",
-        "payload": "james-town",
-        "source_buildings": 9,
-        "layout_index": 42,
-        "stage_slot": 56,
-        "images": {
-          "building": "james-townSprite",
-          "scenery": "james-townSprite",
-          "resident": "james-townSprite",
-          "traffic": "james-townSprite",
-          "projectile": "james-townSprite"
-        },
-        "traffic_families": {
-          "14": "ground13",
-          "31": "flying"
-        },
-        "resident_types": [
-          23,
-          24,
-          25
-        ],
-        "projectile_types": [
-          1,
-          24,
-          31,
-          40
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Current James Town supplied1C6E8 load capture, source assets and bounded qualified fields. Web scheduling/clock/visibility/allocator/RNG/render/audio/recovery/campaign adapters. Source-unloaded NPC animation request uses explicit slot recycle, not original restored animation. Build56 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
-      },
-      {
-        "id": "rome",
-        "name": "Rome",
-        "short": "ROME",
-        "payload": "rome",
-        "source_buildings": 10,
-        "layout_index": 45,
-        "stage_slot": 24,
-        "images": {
-          "building": "romeSprite",
-          "scenery": "romeSprite",
-          "resident": "romeSprite",
-          "traffic": "romeSprite",
-          "projectile": "romeSprite"
-        },
-        "traffic_families": {
-          "32": "flying",
-          "6": "plane9"
-        },
-        "resident_types": [
-          20,
-          23
-        ],
-        "projectile_types": [
-          1,
-          24,
-          26,
-          7
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Fresh Rome original supplied1C6E8 capture and current original assets/qualified bounded fields. Web animation clock/scheduler/visibility/RNG/allocator/collision/camera/render/audio/recovery/campaign adapters remain. Build57 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
-      },
-      {
-        "id": "opecville",
-        "name": "Opecville",
-        "short": "OPECVILLE",
-        "payload": "opecville",
-        "source_buildings": 9,
-        "layout_index": 54,
-        "stage_slot": 68,
-        "images": {
-          "building": "opecvilleSprite",
-          "scenery": "opecvilleSprite",
-          "resident": "opecvilleSprite",
-          "traffic": "opecvilleSprite",
-          "projectile": "opecvilleSprite"
-        },
-        "traffic_families": {
-          "16": "ground13",
-          "35": "flying"
-        },
-        "resident_types": [
-          26,
-          30
-        ],
-        "projectile_types": [
-          1,
-          36
-        ],
-        "compatibility": {
-          "strictCurrentEraFrames": true,
-          "safeProjectilePoolRequests": true
-        },
-        "recovery_protection_ticks": 60,
-        "roof_clearance": 180,
-        "features": {
-          "items": true,
-          "residents": true,
-          "traffic": true
-        },
-        "scope": "Fresh Opecville original supplied1C6E8 capture and current original assets/qualified bounded fields. Web animation clock/scheduler/visibility/RNG/allocator/collision/camera/render/audio/recovery/campaign adapters remain. Build57 controlled-host full route/restart and targeted actual-browser checks qualified; no phone or whole-original-engine claim."
-      }
-    ]
+  "build": 61,
+  "baseline_build": 60,
+  "status": "desktop_candidate_complete_phone_deferred_by_user",
+  "representative_era_groups": 20,
+  "character": "George",
+  "modules": 98,
+  "packaged_png_images": 30,
+  "requested_png_images": {
+    "old-west": 10,
+    "other_levels": 7
   },
-  "runtime_modules": 97,
-  "png_images": 30,
-  "standalone_sha256": "5bb58cda15d22d4c755128a800674794f0061541c7e81cc6a7cb9200d8363fe6",
   "changes": [
-    "Separate actual Canvas640-wide drawing from source400-wide simulation flag",
-    "Mirrored sprite origin used for left/right clipping",
-    "Wrap around actual viewport center320 and draw current post-motion frame",
-    "Canvas width supplied by scene; source simulation flags/native field cores/assets/campaign unchanged"
+    "Request only current-era and shared scene PNGs; standalone preserves inert embedded30 images",
+    "Paint static ready/paused/won/lost canvas only on initial or image-load invalidation",
+    "Full playing loop/source/gameplay/storage/audio/60descent/59escape/58visibility retained"
   ],
-  "new_native_cpu_cases": 0,
-  "retained_original_evidence": "57 and earlier native/reference history retained unchanged; no new native-equivalence claim",
-  "native_boundaries_inherited": [
-    "Clock/scheduler/visibility/RNG/object allocator/camera and selected collision bridges",
-    "Sky samples interpolated/extended and source static-layer selection",
-    "Cleito underwater visuals with current ground locomotion; no recovered swimming/fullwaterengine",
-    "Synthetic audio/campaign/browser storage/60tick recovery protection",
-    "Inherited Shiraz/Divax source-unloaded NPC panic animation recycled explicitly; original timing/assets incomplete",
-    "New2 Web allocator preflight avoids source3A568 saturated first20 count increment; core retains original fields",
-    "Area17 resident26LegacyBridge retained"
+  "source_boundaries": [
+    "Web resource/paint adaptation, not original code/GPU recovery",
+    "RGBA sizes are image-dimension estimates, not process/GPU memory",
+    "Desktop timed probes add overhead; local warm-cache/environment not controlled, no phone/FPS/INP/Lighthouse guarantee",
+    "Single standalone still embeds all20 data/scripts/30PNG compressed payloads; transfer/parse size remains",
+    "All source/input/damage/arena/campaign checks distinguish host replay from actual browser sampling"
   ],
+  "new_native_port_equivalence_cases": 0,
+  "whole20_phone_acceptance": "deferred_by_user",
+  "phone": {
+    "build": 61,
+    "status": "deferred_by_user",
+    "whole20_phone_acceptance": "deferred_by_user",
+    "build61_phone_pass": false,
+    "basis": "User continues proposed desktop browser performance audit; previously explicitly deferred unified phone acceptance",
+    "build58_visibility_targeted_pass_retained": true
+  },
   "checks": {
-    "visibility-boundary-test.json": {
+    "asset-policy-test.json": {
       "passed": true,
-      "cases": 7056,
-      "legacyMismatches": 1929,
-      "fixedMismatches": 0,
-      "simulationVisibilityPreserved": true,
-      "leftLegacyErrors": 111,
-      "rightLegacyErrors": 1818,
-      "examples": [
+      "levels": 20,
+      "images": 30,
+      "rows": [
         {
           "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 480,
-          "flip": false,
-          "rect": {
-            "left": 687,
-            "right": 768,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 600,
-          "flip": false,
-          "rect": {
-            "left": 867,
-            "right": 948,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 639,
-          "flip": false,
-          "rect": {
-            "left": 926,
-            "right": 1007,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 640,
-          "flip": false,
-          "rect": {
-            "left": 927,
-            "right": 1008,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 641,
-          "flip": false,
-          "rect": {
-            "left": 929,
-            "right": 1010,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 650,
-          "flip": false,
-          "rect": {
-            "left": 942,
-            "right": 1023,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 660,
-          "flip": false,
-          "rect": {
-            "left": 957,
-            "right": 1038,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": -30,
-          "flip": true,
-          "rect": {
-            "left": -91.5,
-            "right": -10.5,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": false,
-          "drawn": true,
-          "preFlag": true
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 480,
-          "flip": true,
-          "rect": {
-            "left": 673.5,
-            "right": 754.5,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 600,
-          "flip": true,
-          "rect": {
-            "left": 853.5,
-            "right": 934.5,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 639,
-          "flip": true,
-          "rect": {
-            "left": 912.5,
-            "right": 993.5,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        },
-        {
-          "level": "old-west",
-          "type": 22,
-          "cam": 0,
-          "offset": 640,
-          "flip": true,
-          "rect": {
-            "left": 913.5,
-            "right": 994.5,
-            "top": 288,
-            "bottom": 387
-          },
-          "expected": true,
-          "drawn": false,
-          "preFlag": false
-        }
-      ],
-      "results": [
-        {
-          "level": "old-west",
-          "types": [
-            22,
-            46
+          "activeImages": [
+            "scenerySprite",
+            "downRoofSprite",
+            "trafficSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "residentSprite",
+            "destructionSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 93,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 99614720,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "avalon",
-          "types": [
-            25,
-            13
+          "activeImages": [
+            "avalonSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 93,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 125829120,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "area17",
-          "types": [
-            9,
-            47,
-            34
+          "activeImages": [
+            "area17Sprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 504,
-          "legacyPrematureOrWrongCull": 144,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41943040,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "jur-angeles",
-          "types": [
-            24,
-            12
+          "activeImages": [
+            "jurAngelesSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 93,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41418752,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "cairo",
-          "types": [
-            4,
-            27
+          "activeImages": [
+            "cairoSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 87,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41418752,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "lyons",
-          "types": [
-            7,
-            41
+          "activeImages": [
+            "lyonsSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 99,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41156608,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "beijing",
-          "types": [
-            23,
-            11
+          "activeImages": [
+            "beijingSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 99,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41156608,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "athens",
-          "types": [
-            5,
-            28
+          "activeImages": [
+            "athensSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 84,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41418752,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "kobe",
-          "types": [
-            17,
-            36
+          "activeImages": [
+            "kobeSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 87,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 42205184,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "shiraz",
-          "types": [
-            8,
-            19
+          "activeImages": [
+            "shirazSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 93,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 40894464,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "luzon",
-          "types": [
-            15,
-            33
+          "activeImages": [
+            "luzonSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 87,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41418752,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "london",
-          "types": [
-            20
+          "activeImages": [
+            "londonSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 168,
-          "legacyPrematureOrWrongCull": 42,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41680896,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "divax",
-          "types": [
-            18,
-            1,
-            38
+          "activeImages": [
+            "divaxSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 504,
-          "legacyPrematureOrWrongCull": 141,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41680896,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "dearborn",
-          "types": [
-            40,
-            44,
-            2
+          "activeImages": [
+            "dearbornSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 504,
-          "legacyPrematureOrWrongCull": 141,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41156608,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "macchu-pichu",
-          "types": [
-            21,
-            10
+          "activeImages": [
+            "macchu-pichuSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 93,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 40894464,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "tok",
-          "types": [
-            3,
-            26
+          "activeImages": [
+            "tokSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 93,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 40894464,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "cleito",
-          "types": [
-            29,
-            30
+          "activeImages": [
+            "cleitoSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 90,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41418752,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "james-town",
-          "types": [
-            14,
-            31
+          "activeImages": [
+            "james-townSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 87,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41680896,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "rome",
-          "types": [
-            32,
-            6
+          "activeImages": [
+            "romeSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 90,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41680896,
+          "allEraBytesEstimate": 253755392
         },
         {
           "level": "opecville",
-          "types": [
-            16,
-            35
+          "activeImages": [
+            "opecvilleSprite",
+            "downRoofSprite",
+            "wallCombatSprite",
+            "hurtSprite",
+            "aftermathSprite",
+            "projectileSprite",
+            "georgeSprite"
           ],
-          "cases": 336,
-          "legacyPrematureOrWrongCull": 93,
-          "fixedMismatches": 0
+          "rgbaPixelBytesEstimate": 41156608,
+          "allEraBytesEstimate": 253755392
         }
       ],
-      "scope": "All20 source traffic rosters and actual frame draw rectangles, supplied left/right bounds/flips/camera wrap. Native motion supplied no-op to isolate clipping. Not new original CPU/browser/iPhone gameplay."
+      "scope": "Active resource manifest, nativePNG dimension footprint estimate, load/error repaint subscription/unsubscribe and independent inert-image embedding. Not actual GPU memory, full visual coverage or browser performance."
     },
-    "visibility-extras-test.json": {
+    "render-lifecycle-test.json": {
       "passed": true,
-      "cases": 75,
-      "out": [
+      "levels": 20,
+      "scope": "Controlled host callback/draw counts and RAM/tick freeze; supplied image load event. Not browserFPS/originalCPU/phone.",
+      "rows": [
         {
-          "case": "real attachment source frame/flips/left-right/camera wrap",
-          "cases": 72
+          "level": "old-west",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
         },
         {
-          "case": "cleared/dead attachment stays removed",
-          "passed": true
+          "level": "avalon",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
         },
         {
-          "case": "draw current post-motion location rather than previous source visibility",
-          "before": 700,
-          "after": 600,
-          "sourceHidden": true,
-          "passed": true
+          "level": "area17",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
         },
         {
-          "case": "draw current post-motion location rather than previous source visibility",
-          "before": -100,
-          "after": 0,
-          "sourceHidden": true,
-          "passed": true
+          "level": "jur-angeles",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "cairo",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "lyons",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "beijing",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "athens",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "kobe",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "shiraz",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "luzon",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "london",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "divax",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "dearborn",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "macchu-pichu",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "tok",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "cleito",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "james-town",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "rome",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
+        },
+        {
+          "level": "opecville",
+          "readyAndPausedNoRepeat": true,
+          "pausedTickAndRamUnchanged": true,
+          "imageArrivalRepaintsOnce": true,
+          "resume": true,
+          "restartNewWorld": true
         }
-      ],
-      "scope": "Supplied scene boundary with actual current source attachment/parent frame. Native motion replaced only in2 post-motion cases; no natural-gameplay/native CPU claim."
+      ]
     },
-    "baseline20-preserved.json": {
+    "baseline58-replay-audit.json": {
       "passed": true,
-      "out": [
+      "levels": [
         {
           "level": "old-west",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3140,
             "energy": 43.75,
             "power": 0,
             "arena": 179,
-            "traffic_hits": [
-              {
-                "tick": 8743,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8745,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8748,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8752,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8757,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8758,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8759,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8995,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8996,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8997,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8998,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 8999,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9000,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9001,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9002,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9310,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9311,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9312,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9313,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9314,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9528,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9532,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9533,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9534,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9535,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9536,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9537,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9538,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9539,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9540,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9820,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9821,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9822,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 9823,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10087,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10089,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10090,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10091,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10092,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10093,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10094,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10095,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10096,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10097,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10098,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10099,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10100,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10101,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10102,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10103,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10654,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10657,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10658,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10659,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10660,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10661,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10662,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10663,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10664,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10665,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 10666,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11013,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11014,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11015,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11016,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11017,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11228,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11232,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11233,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11234,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11235,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11236,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11238,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11239,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11240,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11833,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11837,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11839,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11840,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11843,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11844,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11845,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11846,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 11847,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12192,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12193,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12194,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12195,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12431,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12434,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12435,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12436,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12437,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12438,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12439,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12440,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12441,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12442,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12443,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12444,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12445,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12446,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12447,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12795,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12796,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12797,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 12798,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13007,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13011,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13012,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13013,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13014,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13015,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13018,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13019,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13297,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13298,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              },
-              {
-                "tick": 13299,
-                "event": "damage",
-                "type": 22,
-                "args": [
-                  360448,
-                  2149543628
-                ]
-              }
-            ],
-            "coach_shots": [
-              {
-                "tick": 697,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 388,
-                "y": 194,
-                "vx": 227328,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 738,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 470,
-                "y": 194,
-                "vx": 94208,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 779,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 552,
-                "y": 194,
-                "vx": -158720,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 1804,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 554,
-                "y": 194,
-                "vx": 247808,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 1845,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 636,
-                "y": 194,
-                "vx": 184320,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 1886,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 718,
-                "y": 194,
-                "vx": 57344,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 1927,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 800,
-                "y": 194,
-                "vx": -79872,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 1968,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 882,
-                "y": 194,
-                "vx": -163840,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 2829,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 556,
-                "y": 194,
-                "vx": 247808,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 2870,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 638,
-                "y": 194,
-                "vx": 163840,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 2911,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 720,
-                "y": 194,
-                "vx": 43008,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 2952,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 802,
-                "y": 194,
-                "vx": -87040,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 2993,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 884,
-                "y": 194,
-                "vx": -183296,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 3813,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 476,
-                "y": 194,
-                "vx": 270336,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 3854,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 558,
-                "y": 194,
-                "vx": 177152,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 3895,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 640,
-                "y": 194,
-                "vx": 132096,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 3936,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 722,
-                "y": 194,
-                "vx": 66560,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 3977,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 804,
-                "y": 194,
-                "vx": -50176,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 4018,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 886,
-                "y": 194,
-                "vx": -159744,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 4879,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 560,
-                "y": 194,
-                "vx": 252928,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 4920,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 642,
-                "y": 194,
-                "vx": 227328,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 4961,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 724,
-                "y": 194,
-                "vx": 143360,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 5002,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 806,
-                "y": 194,
-                "vx": 59392,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 5043,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 888,
-                "y": 194,
-                "vx": -57344,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 5084,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 970,
-                "y": 194,
-                "vx": -141312,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 5125,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1052,
-                "y": 194,
-                "vx": -225280,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 6027,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 808,
-                "y": 194,
-                "vx": 235520,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 6068,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 890,
-                "y": 194,
-                "vx": 119808,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 6109,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 972,
-                "y": 194,
-                "vx": 23552,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 6150,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1054,
-                "y": 194,
-                "vx": -93184,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 6191,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1136,
-                "y": 194,
-                "vx": -142336,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 6232,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1218,
-                "y": 194,
-                "vx": -212992,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 7093,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 892,
-                "y": 194,
-                "vx": 292864,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 7134,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 974,
-                "y": 194,
-                "vx": 208896,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 7175,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1056,
-                "y": 194,
-                "vx": 118784,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 7216,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1138,
-                "y": 194,
-                "vx": 24576,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 7257,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1220,
-                "y": 194,
-                "vx": -92160,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 7298,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1302,
-                "y": 194,
-                "vx": -176128,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 8118,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 894,
-                "y": 194,
-                "vx": 289792,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 8159,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 976,
-                "y": 194,
-                "vx": 193536,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 8200,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1058,
-                "y": 194,
-                "vx": 122880,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 8241,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1140,
-                "y": 194,
-                "vx": 79872,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 8282,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1222,
-                "y": 194,
-                "vx": -36864,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 8323,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1304,
-                "y": 194,
-                "vx": -137216,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 9184,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 978,
-                "y": 194,
-                "vx": 221184,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 9225,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1060,
-                "y": 194,
-                "vx": 123904,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 9266,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1142,
-                "y": 194,
-                "vx": 55296,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 9307,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1224,
-                "y": 194,
-                "vx": -38912,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 9348,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1306,
-                "y": 194,
-                "vx": -169984,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10168,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 898,
-                "y": 194,
-                "vx": 268288,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10209,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 980,
-                "y": 194,
-                "vx": 184320,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10250,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1062,
-                "y": 194,
-                "vx": 151552,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10291,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1144,
-                "y": 194,
-                "vx": 80896,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10332,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1226,
-                "y": 194,
-                "vx": -22528,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10373,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1308,
-                "y": 194,
-                "vx": -104448,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10414,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1390,
-                "y": 194,
-                "vx": -188416,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 10455,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1472,
-                "y": 194,
-                "vx": -214016,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11316,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1146,
-                "y": 194,
-                "vx": 285696,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11357,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1228,
-                "y": 194,
-                "vx": 201728,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11398,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1310,
-                "y": 194,
-                "vx": 151552,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11439,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1392,
-                "y": 194,
-                "vx": 79872,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11480,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1474,
-                "y": 194,
-                "vx": 16384,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11521,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1556,
-                "y": 194,
-                "vx": -109568,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11562,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545668,
-                "o": 2149377664,
-                "x": 1638,
-                "y": 194,
-                "vx": -135168,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 11603,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1720,
-                "y": 194,
-                "vx": -219136,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 12382,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1230,
-                "y": 194,
-                "vx": 237568,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 12423,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1312,
-                "y": 194,
-                "vx": 167936,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 12464,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545668,
-                "o": 2149377664,
-                "x": 1394,
-                "y": 194,
-                "vx": 37888,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 12505,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1476,
-                "y": 194,
-                "vx": -78848,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 12546,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1558,
-                "y": 194,
-                "vx": -162816,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 12587,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1640,
-                "y": 194,
-                "vx": -165888,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 12628,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545668,
-                "o": 2149377664,
-                "x": 1722,
-                "y": 194,
-                "vx": -185344,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 13489,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1396,
-                "y": 194,
-                "vx": 201728,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 13530,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1478,
-                "y": 194,
-                "vx": 110592,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 13571,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1560,
-                "y": 194,
-                "vx": 26624,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 13612,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1642,
-                "y": 194,
-                "vx": -90112,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 13653,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1724,
-                "y": 194,
-                "vx": -166912,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 13694,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1806,
-                "y": 194,
-                "vx": -206848,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 14596,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1562,
-                "y": 194,
-                "vx": 348160,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 14637,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1644,
-                "y": 194,
-                "vx": 278528,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 14678,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1726,
-                "y": 194,
-                "vx": 237568,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 14719,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545620,
-                "o": 2149374960,
-                "x": 1808,
-                "y": 194,
-                "vx": 166912,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 14760,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545636,
-                "o": 2149375168,
-                "x": 1890,
-                "y": 194,
-                "vx": 102400,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              },
-              {
-                "tick": 14801,
-                "event": "spawn",
-                "type": 27,
-                "r": 2149545652,
-                "o": 2149375376,
-                "x": 1972,
-                "y": 194,
-                "vx": -23552,
-                "vy": -458752,
-                "script": 2147953032,
-                "emitter": 2149374128
-              }
-            ],
-            "mode": "won"
+            "ramSHA256": "bb0cf0bf303699bbdf25652dbe6ddc67dd3930dbdcc7f072d57d1b7a365ab18d"
           }
         },
         {
           "level": "avalon",
           "same": true,
-          "completion": {
+          "current": {
             "score": 2590,
-            "remaining": 1,
             "energy": 48.5,
             "power": 0,
             "arena": 152,
-            "mode": "won",
             "ramSHA256": "1db44d0d9e9ddd691c91bf3003f728720ac36ccf3778193fe5b25efce30c0075"
           }
         },
         {
           "level": "area17",
           "same": true,
-          "completion": {
+          "current": {
             "score": 4490,
-            "source_remaining_field": 1,
-            "visible_remaining": 0,
-            "cleanup": true,
             "energy": 65,
             "power": 0,
             "arena": 288,
-            "mode": "won",
             "ramSHA256": "b76a8a476ff13a8b204d2885a975498d7b49fe3e346a66c312102d591a2db6ce"
           }
         },
         {
           "level": "jur-angeles",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3130,
-            "remaining": 1,
             "energy": 26.5,
             "power": 0,
             "arena": 182,
-            "mode": "won",
             "ramSHA256": "0384924fe70d8dec70736c9e0a346c72efbfd6fd9135f846572d16fed52bd813"
           }
         },
         {
           "level": "cairo",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3560,
-            "remaining": 1,
             "energy": 46.25,
             "power": 0,
             "arena": 252,
-            "mode": "won",
             "ramSHA256": "a552ef4d65abe5161c7012ddba47b73195a1f335ae48f8f5c1f67c4539e69a29"
           }
         },
         {
           "level": "lyons",
           "same": true,
-          "completion": {
+          "current": {
             "score": 2750,
-            "remaining": 1,
             "energy": 40.25,
             "power": 0,
             "arena": 157,
-            "mode": "won",
             "ramSHA256": "37bd72188ee76c70b4df9fdaa9796ce06582eea76cc3de856365945d37be5adb"
           }
         },
         {
           "level": "beijing",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3260,
-            "remaining": 1,
             "energy": 64.5,
             "power": 0,
             "arena": 215,
-            "mode": "won",
             "ramSHA256": "5c5690dea213fe9fb993002abbddf16d91bd1c4ba7bfb0ca2ed72d4d9711817d"
           }
         },
         {
           "level": "athens",
           "same": true,
-          "completion": {
+          "current": {
             "score": 4350,
-            "remaining": 1,
             "energy": 61.25,
             "power": 0,
             "arena": 271,
-            "mode": "won",
             "ramSHA256": "374d8faaefac4c0ea7ef66fc8ad525fbe5cfdb04d0b6a1a4bda5ddd018ec3d92"
           }
         },
         {
           "level": "kobe",
           "same": true,
-          "completion": {
+          "current": {
             "score": 5510,
-            "remaining": 1,
             "energy": 53.5,
             "power": 0,
             "arena": 378,
-            "mode": "won",
             "ramSHA256": "d0bb1de5c3e845943e45225de0a114d6593da48443d9dedd57cde6b3b9e10118"
           }
         },
         {
           "level": "shiraz",
           "same": true,
-          "completion": {
+          "current": {
             "score": 4380,
-            "remaining": 1,
             "energy": 12,
             "power": 0,
             "arena": 282,
-            "mode": "won",
             "ramSHA256": "cfa17d5a3e2c6ce1a665818731301376d285557ffd9b4274deef24bbcd38cebe"
           }
         },
         {
           "level": "luzon",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3450,
-            "remaining": 1,
             "energy": 53.75,
             "power": 0,
             "arena": 149,
-            "mode": "won",
             "ramSHA256": "2c26651d5de181eca6768649b5c3c0233d07ee28c9fbeedfb2dd16c8f9f94b33"
           }
         },
         {
           "level": "london",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3290,
-            "remaining": 1,
             "energy": 65,
             "power": 0,
             "arena": 214,
-            "mode": "won",
             "ramSHA256": "b57bd6c3e8ca961240965f115d2c31a939ba62f340a12f1fcc1f31fab2ff15b4"
           }
         },
         {
           "level": "divax",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3460,
-            "remaining": 1,
             "energy": 3.625,
             "power": 0,
             "arena": 254,
-            "mode": "won",
             "ramSHA256": "b04c476c3ea7b911b4fa970404041465df10ad8ecdaedf9e5d3dfa6e9d5dd226"
           }
         },
         {
           "level": "dearborn",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3390,
-            "remaining": 1,
             "energy": 25,
             "power": 0,
             "arena": 255,
-            "mode": "won",
             "ramSHA256": "03dde95bb1c6cd2098d31980cc453e38dbe685f90e4759ca1b7a6fbced036f7c"
           }
         },
         {
           "level": "macchu-pichu",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3410,
-            "remaining": 1,
             "energy": 29.5,
             "power": 0,
             "arena": 206,
-            "mode": "won",
             "ramSHA256": "d737745469e63d985dcf749367db720092054f354079921fb0c08cc391211c66"
           }
         },
         {
           "level": "tok",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3600,
-            "remaining": 1,
             "energy": 44.25,
             "power": 0,
             "arena": 237,
-            "mode": "won",
             "ramSHA256": "b37f55faf47a56a56773580adad2a303358b0daa2269db5d7fee0bed0a86abb8"
           }
         },
         {
           "level": "cleito",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3610,
-            "remaining": 1,
             "energy": 68,
             "power": 0,
             "arena": 169,
-            "mode": "won",
             "ramSHA256": "861694646952bed3be05c178efdab414fbf6680c6e362121e93499a24c931eed"
           }
         },
         {
           "level": "james-town",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3080,
-            "remaining": 1,
             "energy": 63,
             "power": 0,
             "arena": 141,
-            "mode": "won",
             "ramSHA256": "53cb8bb0a2d9d833663a9c81d00d7f422eb973eeaef62872069acc5ec85aba9f"
           }
         },
         {
           "level": "rome",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3930,
-            "remaining": 1,
             "energy": 39,
             "power": 0,
             "arena": 231,
-            "mode": "won",
             "ramSHA256": "097777f005752ba1099876874ec9a81f8b8d884c9926a71624b9c053ad83d951"
           }
         },
         {
           "level": "opecville",
           "same": true,
-          "completion": {
+          "current": {
             "score": 3540,
-            "remaining": 1,
             "energy": 38,
             "power": 0,
             "arena": 218,
-            "mode": "won",
             "ramSHA256": "34bb1972dd944331fec2003fa493f49548a701567be702bdb3621679a29306b3"
           }
         }
       ],
-      "scope": "20 actual controlled-host full routes terminal RAM/energy/arena/score same as frozen57. Render visibility split preserves original simulation flags/core behavior; no browser/phone pass."
-    },
-    "source-change-audit.json": {
-      "passed": true,
-      "changed": [
-        "play.html",
-        "game.js",
-        "index.html",
-        "traffic-model.js"
-      ],
-      "native_core_files_unchanged": true,
-      "source_simulation_visibility_unchanged": true,
-      "new_native_cpu_cases": 0,
-      "scope": "Final exact byte comparison with frozen57. Only traffic display bounds/current frame/loop coordinate, actualCanvas width supply and build label/composition differ. Original simulation visibility helper byte-preserved, all native cores/assets/campaign untouched."
+      "scope": "All20 actual key-route terminal state against previously recorded58 values. Original source and phone equivalence not implied."
     },
     "campaign-route.json": {
       "passed": true,
@@ -3811,306 +864,902 @@
       ],
       "total": 71920
     },
-    "regression-all20.json": {
+    "descent-key-route.json": {
       "passed": true,
-      "scope": "Host DOM/RAF keyboard/pointer callbacks and injected fault; not physical phone or full-engine evidence.",
-      "result": [
+      "scope": "Natural initial approach, climb and left roof edge/down using only keys. Complete production runtime under controlled DOM/RAF. No pose/RAM injection, source CPU/browser/phone acceptance not implied.",
+      "results": [
         {
-          "case": "old-west 100 pure-jump presses",
+          "level": "london",
           "passed": true,
-          "tick": 7202
+          "approach": {
+            "cameraY": 0,
+            "tick": 29,
+            "x": 349.76319122314453,
+            "y": 448,
+            "action": 0,
+            "climb": null,
+            "roof": null,
+            "locked": false,
+            "hurt": null,
+            "mode": "playing"
+          },
+          "roof": {
+            "cameraY": 0,
+            "tick": 165,
+            "x": 432.26319122314453,
+            "y": 117.25,
+            "action": 0,
+            "climb": null,
+            "roof": 1,
+            "locked": false,
+            "hurt": null,
+            "mode": "playing"
+          },
+          "end": {
+            "cameraY": 0,
+            "tick": 263,
+            "x": 346.6036834716797,
+            "y": 448,
+            "action": 0,
+            "climb": null,
+            "roof": null,
+            "locked": false,
+            "hurt": null,
+            "mode": "playing"
+          },
+          "keys": [
+            {
+              "code": "ArrowRight",
+              "ticks": 25
+            },
+            {
+              "code": "ArrowUp",
+              "ticks": 135
+            },
+            {
+              "code": "ArrowLeft",
+              "ticks": 24
+            },
+            {
+              "code": "ArrowDown",
+              "ticks": 71
+            }
+          ],
+          "trace": [
+            {
+              "cameraY": 0,
+              "tick": 192,
+              "x": 346.6036834716797,
+              "y": 177.25,
+              "action": 6,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            },
+            {
+              "cameraY": 0,
+              "tick": 212,
+              "x": 346.6036834716797,
+              "y": 252.25,
+              "action": 5,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            },
+            {
+              "cameraY": 0,
+              "tick": 233,
+              "x": 346.6036834716797,
+              "y": 331,
+              "action": 5,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            },
+            {
+              "cameraY": 0,
+              "tick": 253,
+              "x": 346.6036834716797,
+              "y": 406,
+              "action": 5,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            }
+          ],
+          "errors": []
         },
         {
-          "case": "old-west 100 jump+K attacks",
+          "level": "area17",
           "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "old-west 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "avalon 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "avalon 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "avalon 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "area17 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "area17 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "area17 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "jur-angeles 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "jur-angeles 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "jur-angeles 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "cairo 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "cairo 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "cairo 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "lyons 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "lyons 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "lyons 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "beijing 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "beijing 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "beijing 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "athens 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "athens 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "athens 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "kobe 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "kobe 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "kobe 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "shiraz 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "shiraz 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "shiraz 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "luzon 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "luzon 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "luzon 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "london 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "london 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "london 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "divax 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "divax 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "divax 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "dearborn 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "dearborn 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "dearborn 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "macchu-pichu 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "macchu-pichu 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "macchu-pichu 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "tok 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "tok 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "tok 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "cleito 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "cleito 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "cleito 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "james-town 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "james-town 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "james-town 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "rome 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "rome 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "rome 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "opecville 100 pure-jump presses",
-          "passed": true,
-          "tick": 7202
-        },
-        {
-          "case": "opecville 100 jump+K attacks",
-          "passed": true,
-          "tick": 7299
-        },
-        {
-          "case": "opecville 30 supplied dual-pointer jump+punch/release",
-          "passed": true
-        },
-        {
-          "case": "injected error freezes corrupt scene visibly, clears inputs, keeps RAF alive, restart replaces world and jump works",
-          "passed": true
+          "approach": {
+            "cameraY": 0,
+            "tick": 12,
+            "x": 255.8144302368164,
+            "y": 448,
+            "action": 0,
+            "climb": null,
+            "roof": null,
+            "locked": false,
+            "hurt": null,
+            "mode": "playing"
+          },
+          "roof": {
+            "cameraY": 0,
+            "tick": 157,
+            "x": 338.3144302368164,
+            "y": 80.5,
+            "action": 0,
+            "climb": null,
+            "roof": 1,
+            "locked": false,
+            "hurt": null,
+            "mode": "playing"
+          },
+          "end": {
+            "cameraY": 0,
+            "tick": 265,
+            "x": 252.65492248535156,
+            "y": 448,
+            "action": 0,
+            "climb": null,
+            "roof": null,
+            "locked": false,
+            "hurt": null,
+            "mode": "playing"
+          },
+          "keys": [
+            {
+              "code": "ArrowRight",
+              "ticks": 8
+            },
+            {
+              "code": "ArrowUp",
+              "ticks": 144
+            },
+            {
+              "code": "ArrowLeft",
+              "ticks": 24
+            },
+            {
+              "code": "ArrowDown",
+              "ticks": 81
+            }
+          ],
+          "trace": [
+            {
+              "cameraY": 0,
+              "tick": 184,
+              "x": 252.65492248535156,
+              "y": 140.5,
+              "action": 6,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            },
+            {
+              "cameraY": 0,
+              "tick": 204,
+              "x": 252.65492248535156,
+              "y": 215.5,
+              "action": 5,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            },
+            {
+              "cameraY": 0,
+              "tick": 224,
+              "x": 252.65492248535156,
+              "y": 290.5,
+              "action": 5,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            },
+            {
+              "cameraY": 0,
+              "tick": 245,
+              "x": 252.65492248535156,
+              "y": 369.25,
+              "action": 5,
+              "climb": 1,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            },
+            {
+              "cameraY": 0,
+              "tick": 265,
+              "x": 252.65492248535156,
+              "y": 448,
+              "action": 0,
+              "climb": null,
+              "roof": null,
+              "locked": false,
+              "hurt": null,
+              "mode": "playing"
+            }
+          ],
+          "errors": []
         }
       ]
     },
-    "soak-all20.json": {
+    "restart-retention-test.json": {
+      "passed": true,
+      "levels": 20,
+      "restarts": 500,
+      "scope": "Host repeated input/pause/reset arena/pool/input ownership checks with one current world. Not process/GPU heap proof or physical mobile.",
+      "rows": [
+        {
+          "level": "old-west",
+          "restarts": 25,
+          "initialArena": 60,
+          "restartedArenas": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        },
+        {
+          "level": "avalon",
+          "restarts": 25,
+          "initialArena": 53,
+          "restartedArenas": [
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "level": "area17",
+          "restarts": 25,
+          "initialArena": 85,
+          "restartedArenas": [
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85
+          ]
+        },
+        {
+          "level": "jur-angeles",
+          "restarts": 25,
+          "initialArena": 60,
+          "restartedArenas": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        },
+        {
+          "level": "cairo",
+          "restarts": 25,
+          "initialArena": 74,
+          "restartedArenas": [
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74,
+            74
+          ]
+        },
+        {
+          "level": "lyons",
+          "restarts": 25,
+          "initialArena": 57,
+          "restartedArenas": [
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57,
+            57
+          ]
+        },
+        {
+          "level": "beijing",
+          "restarts": 25,
+          "initialArena": 64,
+          "restartedArenas": [
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "level": "athens",
+          "restarts": 25,
+          "initialArena": 90,
+          "restartedArenas": [
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90
+          ]
+        },
+        {
+          "level": "kobe",
+          "restarts": 25,
+          "initialArena": 106,
+          "restartedArenas": [
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106
+          ]
+        },
+        {
+          "level": "shiraz",
+          "restarts": 25,
+          "initialArena": 81,
+          "restartedArenas": [
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81
+          ]
+        },
+        {
+          "level": "luzon",
+          "restarts": 25,
+          "initialArena": 56,
+          "restartedArenas": [
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56,
+            56
+          ]
+        },
+        {
+          "level": "london",
+          "restarts": 25,
+          "initialArena": 62,
+          "restartedArenas": [
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62,
+            62
+          ]
+        },
+        {
+          "level": "divax",
+          "restarts": 25,
+          "initialArena": 77,
+          "restartedArenas": [
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77
+          ]
+        },
+        {
+          "level": "dearborn",
+          "restarts": 25,
+          "initialArena": 79,
+          "restartedArenas": [
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79,
+            79
+          ]
+        },
+        {
+          "level": "macchu-pichu",
+          "restarts": 25,
+          "initialArena": 71,
+          "restartedArenas": [
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71,
+            71
+          ]
+        },
+        {
+          "level": "tok",
+          "restarts": 25,
+          "initialArena": 76,
+          "restartedArenas": [
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76
+          ]
+        },
+        {
+          "level": "cleito",
+          "restarts": 25,
+          "initialArena": 63,
+          "restartedArenas": [
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            63
+          ]
+        },
+        {
+          "level": "james-town",
+          "restarts": 25,
+          "initialArena": 53,
+          "restartedArenas": [
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "level": "rome",
+          "restarts": 25,
+          "initialArena": 77,
+          "restartedArenas": [
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77,
+            77
+          ]
+        },
+        {
+          "level": "opecville",
+          "restarts": 25,
+          "initialArena": 76,
+          "restartedArenas": [
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      ]
+    },
+    "soak61.json": {
       "passed": true,
       "scope": "Host deterministic DOM/RAF mixed native keyboard blocks and live pool checks; not performance benchmark or mobile/original engine proof.",
       "out": [
         {
           "level": "old-west",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 63,
-          "maxPool": 2,
+          "maxPool": 3,
+          "maxHistory": 2021,
+          "maxActorRecords": 3,
           "projectileTypes": [
             1,
             27
@@ -4119,10 +1768,12 @@
         },
         {
           "level": "avalon",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 56,
           "maxPool": 2,
+          "maxHistory": 1243,
+          "maxActorRecords": 3,
           "projectileTypes": [
             24,
             28
@@ -4131,10 +1782,12 @@
         },
         {
           "level": "area17",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 97,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 99,
           "maxPool": 11,
+          "maxHistory": 2048,
+          "maxActorRecords": 13,
           "projectileTypes": [
             1,
             6,
@@ -4146,10 +1799,12 @@
         },
         {
           "level": "jur-angeles",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 63,
           "maxPool": 2,
+          "maxHistory": 1594,
+          "maxActorRecords": 3,
           "projectileTypes": [
             24
           ],
@@ -4157,10 +1812,12 @@
         },
         {
           "level": "cairo",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 79,
-          "maxPool": 4,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 81,
+          "maxPool": 6,
+          "maxHistory": 2047,
+          "maxActorRecords": 7,
           "projectileTypes": [
             24,
             30,
@@ -4170,11 +1827,14 @@
         },
         {
           "level": "lyons",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 62,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 63,
           "maxPool": 5,
+          "maxHistory": 2048,
+          "maxActorRecords": 6,
           "projectileTypes": [
+            1,
             5,
             7
           ],
@@ -4182,10 +1842,12 @@
         },
         {
           "level": "beijing",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 70,
           "maxPool": 5,
+          "maxHistory": 1237,
+          "maxActorRecords": 6,
           "projectileTypes": [
             24,
             28,
@@ -4195,10 +1857,12 @@
         },
         {
           "level": "athens",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 94,
-          "maxPool": 3,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 96,
+          "maxPool": 4,
+          "maxHistory": 2044,
+          "maxActorRecords": 6,
           "projectileTypes": [
             24,
             33
@@ -4207,10 +1871,12 @@
         },
         {
           "level": "kobe",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 112,
-          "maxPool": 6,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 113,
+          "maxPool": 7,
+          "maxHistory": 1800,
+          "maxActorRecords": 7,
           "projectileTypes": [
             1,
             36
@@ -4219,10 +1885,12 @@
         },
         {
           "level": "shiraz",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 87,
-          "maxPool": 6,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 88,
+          "maxPool": 7,
+          "maxHistory": 2046,
+          "maxActorRecords": 7,
           "projectileTypes": [
             24,
             25,
@@ -4232,10 +1900,12 @@
         },
         {
           "level": "luzon",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 59,
-          "maxPool": 2,
+          "maxPool": 3,
+          "maxHistory": 647,
+          "maxActorRecords": 3,
           "projectileTypes": [
             1,
             26
@@ -4244,10 +1914,12 @@
         },
         {
           "level": "london",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 65,
-          "maxPool": 2,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 68,
+          "maxPool": 6,
+          "maxHistory": 704,
+          "maxActorRecords": 6,
           "projectileTypes": [
             1,
             26
@@ -4256,10 +1928,12 @@
         },
         {
           "level": "divax",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 91,
-          "maxPool": 12,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 97,
+          "maxPool": 16,
+          "maxHistory": 2047,
+          "maxActorRecords": 20,
           "projectileTypes": [
             1,
             2,
@@ -4271,10 +1945,12 @@
         },
         {
           "level": "dearborn",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 95,
           "maxPool": 16,
+          "maxHistory": 2040,
+          "maxActorRecords": 16,
           "projectileTypes": [
             1,
             5,
@@ -4285,10 +1961,12 @@
         },
         {
           "level": "macchu-pichu",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 73,
           "maxPool": 2,
+          "maxHistory": 1449,
+          "maxActorRecords": 2,
           "projectileTypes": [
             24
           ],
@@ -4296,10 +1974,12 @@
         },
         {
           "level": "tok",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 81,
-          "maxPool": 4,
+          "maxPool": 5,
+          "maxHistory": 2047,
+          "maxActorRecords": 5,
           "projectileTypes": [
             24,
             29,
@@ -4309,10 +1989,12 @@
         },
         {
           "level": "cleito",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 67,
           "maxPool": 3,
+          "maxHistory": 1276,
+          "maxActorRecords": 4,
           "projectileTypes": [
             24
           ],
@@ -4320,10 +2002,12 @@
         },
         {
           "level": "james-town",
-          "blocks": 60,
-          "ticks": 3600,
+          "blocks": 180,
+          "ticks": 10800,
           "maxArena": 61,
           "maxPool": 5,
+          "maxHistory": 1646,
+          "maxActorRecords": 8,
           "projectileTypes": [
             1,
             31,
@@ -4333,10 +2017,12 @@
         },
         {
           "level": "rome",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 82,
-          "maxPool": 4,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 83,
+          "maxPool": 5,
+          "maxHistory": 2042,
+          "maxActorRecords": 6,
           "projectileTypes": [
             7,
             24,
@@ -4346,10 +2032,12 @@
         },
         {
           "level": "opecville",
-          "blocks": 60,
-          "ticks": 3600,
-          "maxArena": 81,
+          "blocks": 180,
+          "ticks": 10800,
+          "maxArena": 82,
           "maxPool": 4,
+          "maxHistory": 1254,
+          "maxActorRecords": 6,
           "projectileTypes": [
             1,
             36
@@ -4358,58 +2046,170 @@
         }
       ]
     },
-    "pool-preflight-test.json": {
+    "source-audit61.json": {
       "passed": true,
-      "scope": "Supplied allocator saturation boundary. Web safeguard separate from native cores; no original equivalence/desktop/mobile play claim.",
-      "out": [
-        "Native matched source3A568 increments20->21 when first20 slots occupied; zero allocator calls, final free21st slot unused. Core retained.",
-        "rome explicit Web full-pool preflight preserves count/arena; new world resets pool",
-        "opecville explicit Web full-pool preflight preserves count/arena; new world resets pool"
-      ]
+      "baseline": "Frozen60 runtime",
+      "changed_referenced_modules": [
+        "game.js"
+      ],
+      "added_referenced_modules": [
+        "asset-loader.js"
+      ],
+      "referenced_scripts": 98,
+      "png_payloads_byte_identical": 30,
+      "game_loop_change_reversible_to60": true,
+      "original_cores_movement_damage_inputs_storage_audio_unchanged": true,
+      "source_runtime_state_equal_full20_verified_separately": true,
+      "new_native_port_equivalence_cases": 0,
+      "scope": "Only scene image request policy and static-frame paint invalidation changed; allsource cores/pixels/control/campaign/58/59/60 fixes byte identical. Build labels and independent composition change."
     },
-    "browser58-verification.json": {
+    "browser-verification61.json": {
       "passed": true,
-      "ordinary": {
-        "build": 58,
-        "modules": 97,
-        "scenes": [
-          "Avalon right-edge ground actor partly visible",
-          "OldWest right-area flying enemy visible",
-          "Area17 complete right-area vehicle visible"
+      "actual_browser": "Local desktop IAB Chromium, native keys and normal interface selection; explicit timing probes",
+      "switch_passes": 2,
+      "actual_level_switch_checks": 40,
+      "required_images_loaded_all_checks": true,
+      "actual_restart_keys": 30,
+      "probe_total_resets_including_initial": 31,
+      "long_divax": {
+        "elapsed_ms": 327837,
+        "scene_ticks": 19656,
+        "mode": "playing",
+        "last600_callback_ms": {
+          "n": 600,
+          "p50": 0.6000000238418579,
+          "p95": 1.2000000476837158,
+          "max": 1.899999976158142
+        },
+        "last600_raf_interval_ms": {
+          "n": 600,
+          "p50": 16.70000000001164,
+          "p95": 18.400000000023283,
+          "max": 31.79999999998836
+        },
+        "arena": 94,
+        "pool": 10,
+        "histories": 6074,
+        "heap_used_bytes_coarse": 19431474,
+        "long_tasks": 4,
+        "long_task_ms": 202
+      },
+      "baseline_ready": {
+        "elapsedMs": 24161,
+        "frames": 1448,
+        "draws": 1448,
+        "callbackCostMs": {
+          "n": 600,
+          "p50": 0.30000007152557373,
+          "p95": 0.5,
+          "max": 0.7999999523162842
+        },
+        "images": {
+          "total": 30,
+          "decoded": 30,
+          "rgbaBytesEstimate": 253755392
+        },
+        "heap": {
+          "used": 29328082,
+          "total": 31372010,
+          "limit": 4395630592,
+          "warning": "Nonstandard coarse Chromium JS heap only; no GPU/native memory or forcedGC guarantee"
+        },
+        "load": {
+          "domInteractive": 96.19999992847443,
+          "domComplete": 105.79999995231628,
+          "loadEventEnd": 105.79999995231628,
+          "transferSize": 29331,
+          "decodedBodySize": 29031
+        }
+      },
+      "candidate_ready": {
+        "elapsedMs": 17111,
+        "frames": 1028,
+        "draws": 2,
+        "callbackCostMs": {
+          "n": 600,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.10000002384185791
+        },
+        "images": {
+          "total": 30,
+          "decoded": 7,
+          "rgbaBytesEstimate": 41156608
+        },
+        "heap": {
+          "used": 30525442,
+          "total": 31897130,
+          "limit": 4395630592,
+          "warning": "Nonstandard coarse Chromium JS heap only; no GPU/native memory or forcedGC guarantee"
+        },
+        "load": {
+          "domInteractive": 43.60000002384186,
+          "domComplete": 51.40000009536743,
+          "loadEventEnd": 51.40000009536743,
+          "transferSize": 29533,
+          "decodedBodySize": 29233
+        }
+      },
+      "production_independent": {
+        "activeImages": [
+          {
+            "embedded": true,
+            "id": "londonSprite",
+            "loaded": true
+          },
+          {
+            "embedded": true,
+            "id": "downRoofSprite",
+            "loaded": true
+          },
+          {
+            "embedded": true,
+            "id": "wallCombatSprite",
+            "loaded": true
+          },
+          {
+            "embedded": true,
+            "id": "hurtSprite",
+            "loaded": true
+          },
+          {
+            "embedded": true,
+            "id": "aftermathSprite",
+            "loaded": true
+          },
+          {
+            "embedded": true,
+            "id": "projectileSprite",
+            "loaded": true
+          },
+          {
+            "embedded": true,
+            "id": "georgeSprite",
+            "loaded": true
+          }
         ],
-        "old57_avalon_observation_retained": true,
-        "not_frame_synchronized": true,
-        "warn_error_logs": 0
+        "external": 0,
+        "guidance": "地面可行动",
+        "inertImages": 23,
+        "probePanel": false,
+        "scripts": 98,
+        "sourceImages": 30
       },
-      "standalone": {
-        "build": 58,
-        "modules": 97,
-        "external_scripts": 0,
-        "embedded_images": 30,
-        "all_images_loaded": true,
-        "area17_vehicle_visible": true,
-        "paused": true,
-        "sha256": "5bb58cda15d22d4c755128a800674794f0061541c7e81cc6a7cb9200d8363fe6",
-        "warn_error_logs": 0
-      },
-      "not_claimed": [
-        "All browser left-edge/wrap scenarios",
-        "iPhone or whole20 phone acceptance",
-        "Original GPU behavior or new original CPU comparisons"
-      ]
+      "normal_production_london_natural_descent_ground": true,
+      "production_browser_warn_error_logs": [],
+      "production_screenshot_inspected": true,
+      "scope": "Instrumented actual desktop timings/finite switches and native keys; warmcache/uncontrolled environment and probe overhead. PNG pixel footprint not actual GPUmemory. Heap coarse/nonstandard, no forcedGC/no leak guarantee. Not browser20 full victory/FPSpromise/phone/INP/Lighthouse."
     }
   },
-  "phone": {
-    "build": 58,
-    "status": "pending_visibility_retest",
-    "user_defect": "Every level; ground/flying enemies disappear inside left/right displayed area",
-    "whole20_phone_acceptance": "still_pending",
-    "scope": "Targeted defect check is separate from complete iPhone checklist; desktop rendering proof does not imply phone pass."
-  },
+  "standalone_sha256": "c2da39763bdf943e75d9439d34c6cef2f97310e7d2b3603ed8f4dab0377d6e8a",
   "new_external_publication": false,
-  "remaining": [
-    "Targeted real iPhone left/right visibility retest",
-    "Full20 unified iPhone checklist still pending",
-    "All57 source limitations unchanged: not all60cities/fullcharacters/fullengine/codec/originalmusic/action43; Cleito ground locomotion; source-unloaded animation branches disclosed"
+  "stable_public_build": 58,
+  "limitations": [
+    "Not full60cities/fullcharacters/fullengine/independentcodec/originalmusic/action43",
+    "Inherited explicit current-era run visual substitute for missing original panic art/timing",
+    "Cleito original evidence does not establish separate swimming",
+    "Other unloaded source branches and named supplied leaves/clock/collision/allocator/renderer adaptations retained"
   ]
 }

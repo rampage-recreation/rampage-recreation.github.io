@@ -1,11 +1,33 @@
 {
-  "build": 58,
-  "status": "targeted_visibility_pass",
-  "user_defect": "Every level; ground/flying enemies disappear inside left/right displayed area",
+  "build": 61,
+  "release": "desktop_verified_publication_authorized",
   "whole20_phone_acceptance": "deferred_by_user",
-  "scope": "Targeted visibility defect user pass retained. User explicitly deferred whole20 phone acceptance; no complete acceptance claimed.",
-  "user_reply": "这个问题可以了",
-  "user_reply_date": "2026-10-27",
-  "whole20_user_reply": "先不验收",
-  "whole20_user_reply_date": "2026-10-27"
+  "targeted_user_passes": {
+    "build58_enemy_horizontal_visibility": "passed_by_user"
+  },
+  "build59_61_phone_pass": false,
+  "desktop": {
+    "key_route_levels": 20,
+    "campaign_score": 71920,
+    "terminal_state_same60": true,
+    "host_restarts": 500,
+    "host_mixed_ticks": 216000,
+    "browser_stage_switch_checks": 40,
+    "browser_restarts": 30,
+    "browser_long_divax_ms": 327837,
+    "browser_long_divax_scene_ticks": 19656
+  },
+  "boundaries": [
+    "Not physical phone acceptance",
+    "Not browser20 full victories or original engine/GPU equivalence",
+    "PNG footprint estimate is not actual device memory",
+    "Original panic art/timing still missing; explicit current-era visual substitute"
+  ],
+  "rollback": {
+    "repository": "rampage-recreation/rampage-recreation.github.io",
+    "branch": "main",
+    "previous_commit": "8a861655183f98fcbfbfa45273638184e0462527",
+    "local_release": "deployment/github-pages-build58",
+    "frozen_zip": "outputs/rampage-build58/rampage-twenty-era-web-build58.zip"
+  }
 }
